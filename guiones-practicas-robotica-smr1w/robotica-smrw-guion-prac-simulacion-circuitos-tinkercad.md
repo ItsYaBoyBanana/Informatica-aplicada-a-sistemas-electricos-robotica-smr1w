@@ -39,7 +39,7 @@
 ## 3. HERRAMIENTAS Y MATERIAL NECESARIO
 
 ### 3.1. Software
-- [ ] **Tinkercad** (Plataforma online de simulación): https://www.tinkercad.com/  
+- [ ] **Tinkercad** (plataforma online de simulación): https://www.tinkercad.com/  
 - [ ] Navegador web actualizado (Chrome/Firefox recomendado)
 - [ ] Cuenta en Autodesk (gratuita)
 
@@ -95,19 +95,19 @@ _Duración estimada: 45 minutos_
 | **Suma V_R1+V_R2+V_R3** | **9V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
 
 **Paso 4.1.3 - Mediciones de Corriente**
-- [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> A
-- [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> A  
-- [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> A
-- [ ] **Verificación:** I_R1 = I_R2 = I_R3 = <span id="current_verification_serie">___</span> A
+- [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
+- [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> ```   A```   
+- [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> ```   A```  
+- [ ] **Verificación:** I_R1 = I_R2 = I_R3 = <span id="current_verification_serie">___</span> ```   A``` 
 
 **Paso 4.1.4 - Cálculos teóricos**
-Resistencia Total (R_T) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> Ω
-Corriente Teórica (I) = V / R_T = 9V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> A
-Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> A × 220Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> V
-Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> V
-Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> V
+Resistencia Total (R_T) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```
+Corriente Teórica (I) = V / R_T = 9V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```
+Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> A × 220Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   V```
+Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   V```
+Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   V```
 
-### 4.2. Capatura circuito 1 (Serie)
+### 4.2. Captura circuito 1 (Serie)
 <div class="screenshot-section">
     <div class="screenshot-instructions">
         <strong>Instrucciones para captura:</strong>
