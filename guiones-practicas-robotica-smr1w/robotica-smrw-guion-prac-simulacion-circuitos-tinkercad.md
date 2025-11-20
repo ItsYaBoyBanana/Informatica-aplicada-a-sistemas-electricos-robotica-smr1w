@@ -6,7 +6,7 @@
 
 ---
 
-## 1. OBJETIVOS DE APRENDIZAJE
+## 1. OBJETIVOS
 
 ### 1.1. Objetivos conceptuales
 - [ ] Comprender las leyes fundamentales de circuitos eléctricos (Ley de Ohm, Kirchhoff)
