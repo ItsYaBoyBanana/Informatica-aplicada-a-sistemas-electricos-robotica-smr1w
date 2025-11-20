@@ -238,7 +238,7 @@ _Duración estimada: 45 minutos_
         <label>Insertar captura del circuito mixto:</label>
         <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
         <div id="screenshotPreviewSerie" class="screenshot-preview"><pre>circuito-mixto.jpg</pre></div>
-    </div>
+    </div></div>
 
 ---
 
@@ -312,9 +312,10 @@ _Duración estimada: 25 minutos_
 | **Kirchhoff Voltajes** (ΣV = 0) | ☐ Verificada | ☐ Verificada | ☐ Verificada |
 | **Kirchhoff Corrientes** (ΣI = 0) | ☐ Verificada | ☐ Verificada | ☐ Verificada |
 
-### 8.3. INCIDENCIAS Y OBSERVACIONES
+### 8.3. INCIDENCIAS Y OBSERVACIONES  
+Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos:
 
-<textarea id="observations" placeholder="Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos..." rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;"><pre>Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...</pre></textarea>
+<textarea id="observations" placeholder="" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;"><pre>Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...</pre></textarea>
 
 ---
 
