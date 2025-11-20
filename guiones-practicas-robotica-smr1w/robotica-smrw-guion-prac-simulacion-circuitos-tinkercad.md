@@ -314,8 +314,9 @@ _Duración estimada: 25 minutos_
 | **Kirchhoff Corrientes** (ΣI = 0) | ☐ Verificada | ☐ Verificada | ☐ Verificada |
 
 ### 8.3. INCIDENCIAS Y OBSERVACIONES  
-Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos:
-```Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...```
+Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos:  
+
+<pre> Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...   </pre>
 
 <!--<textarea id="observations" placeholder="" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;"><pre>Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...</pre></textarea>-->
 
