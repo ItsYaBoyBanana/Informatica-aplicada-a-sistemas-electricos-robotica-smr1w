@@ -47,18 +47,16 @@
 - [ ] Cuenta en Autodesk (gratuita)
 
 ### 3.2. Componentes virtuales 
-┌─────────────────────────────────────────────────────────────┐
-│ COMPONENTES PARA TINKERCAD │
-├──────────────────────┬──────────────────┬───────────────────┤
-│ COMPONENTE │ CANTIDAD │ USO │
-├──────────────────────┼──────────────────┼───────────────────┤
+
+| Componente | Cantidad | Uso │
+|------------|----------|------|
 │ Batería/Pila 9 V │ 3 unidades │ Fuente alimentación│
 │ Resistencias varias │ 9 unidades │ Cargas circuito │
 │ Polímetros │ 3 unidades │ Mediciones V, I, R│
 │ Protoboard │ 3 unidades │ Montaje circuitos │
 │ LEDs (opcional) │ 6 unidades │ Visualización │
 │ Cables jumpers │ Múltiples │ Conexiones │
-└──────────────────────┴──────────────────┴───────────────────┘
+
 
 ### 3.3. Valores de resistencia recomendados
 - **R1:** 220Ω `rojo-rojo-marrón`
