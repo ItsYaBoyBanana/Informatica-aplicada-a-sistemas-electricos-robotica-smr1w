@@ -109,7 +109,7 @@ Caída de tensión en cada resistor: V<sub>R<sub>n</sub></sub> = I × R<sub>n</s
 
 - Resistencia Total (R<sub>T</sub>) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   ```Ω  
 - Corriente teórica (I<sub>T</sub>) = V / R<sub>T</sub> = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   ```A  
-- Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> I<sub>T</sub> × 220 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   ```V  
+- Voltaje R1 Teórico = <span id="i_total_serie"></span> I<sub>T</sub> × 220 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   ```V  
 - Voltaje R2 Teórico = <span id="i_total_serie2"></span> I<sub>T</sub> × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   ```V  
 - Voltaje R3 Teórico = <span id="i_total_serie3"></span> I<sub>T</sub> × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   ```V  
 
