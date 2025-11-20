@@ -141,20 +141,20 @@ _Duración estimada: 45 minutos_
 
 ### 5.1. Esquema del circuito
 
-          CIRCUITO EN PARALELO (ANSI/ASCII IEC)
+          CIRCUITO EN PARALELO
 
-                  +----[220Ω]----+
-                  |     R1       |
+                  +----[R1]----+
+                  |     R220Ω   |
      +------------+--------------+------------+
      |            |              |            |
-     |            +----[330Ω]----+            |
-     |            |     R2       |            |
+     |            +----[R2]----+            |
+     |            |     330Ω     |            |
      |            +--------------+            |
      |            |              |            |
-     |            +----[470Ω]----+            |
-     |            |     R3       |            |
+     |            +----[R3]----+            |
+     |            |     470Ω     |            |
      +------------+--------------+------------+
-                  |                            
+                  |                           | 
                   +------ (+) 9V (–) ----------+
 
 
@@ -200,7 +200,7 @@ _Duración estimada: 45 minutos_
 _Duración estimada: 45 minutos_
 
 ### 6.1. Esquema del circuito  
-                DIAGRAMA ELÉCTRICO (ANSI/IEC)
+                CIRCUITO ELÉCTRICO (SERIE-PARALELO)
 
                      I_total →
       +----------------------------------------------------+
@@ -220,7 +220,7 @@ _Duración estimada: 45 minutos_
                          |
                          |
       +------------------+
-      |     +  9 V  –  
+      |     +  9 V  –    |
       +------|‾‾‾‾|------+
 
 
