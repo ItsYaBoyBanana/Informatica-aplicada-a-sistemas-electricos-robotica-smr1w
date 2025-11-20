@@ -172,7 +172,7 @@ _Duración estimada: 45 minutos_
 - [ ] **Verificación:** V<sub>R1</sub> = V<sub>R2</sub> = V<sub>R3</sub> = 9 V
 
 ### 5.5. Cálculos teóricos    
-- $1/R_T = 1/R1 + 1/R2 + 1/R3 = 1/220 + 1/330 + 1/470 =$ <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω
+- $\frac{1}{R_T} = \frac{1}{R1} + \frac{1}{R2} + \frac{1}{R3} =$ 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω
 - R_Total = <span id="r_total_calc_paralelo"></span> Ω
 - I_Total = V / R_T = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> A
 - I_R1 = 9 V / 220 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r1_theo"> A
