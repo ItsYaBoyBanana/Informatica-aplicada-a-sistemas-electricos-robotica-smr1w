@@ -136,26 +136,26 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 5. Diseño del circuito Paralelo CC 
+## 5. Diseño del circuito en Paralelo CC 
 _Duración estimada: 45 minutos_
 
 ### 5.1. Esquema del circuito
 
           CIRCUITO EN PARALELO
 
-                  +----[R1]----+
-                  |     R220Ω   |
+                  +-----[R1]-----+
+                  |    R220Ω     |
      +------------+--------------+------------+
      |            |              |            |
-     |            +----[R2]----+            |
+     |            +-----[R2]-----+            |
      |            |     330Ω     |            |
      |            +--------------+            |
      |            |              |            |
-     |            +----[R3]----+            |
+     |            +-----[R3]-----+            |
      |            |     470Ω     |            |
      +------------+--------------+------------+
                   |                           | 
-                  +------ (+) 9V (–) ----------+
+                  +------ (+) 9V (–) ---------+
 
 
 ### 5.2. Montaje en nueva Protoboard 
