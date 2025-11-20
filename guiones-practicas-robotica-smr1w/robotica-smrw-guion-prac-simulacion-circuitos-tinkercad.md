@@ -49,7 +49,7 @@
 ├──────────────────────┬──────────────────┬───────────────────┤
 │ COMPONENTE │ CANTIDAD │ USO │
 ├──────────────────────┼──────────────────┼───────────────────┤
-│ Batería/Pila 9V │ 3 unidades │ Fuente alimentación│
+│ Batería/Pila 9 V │ 3 unidades │ Fuente alimentación│
 │ Resistencias varias │ 9 unidades │ Cargas circuito │
 │ Polímetros │ 3 unidades │ Mediciones V, I, R│
 │ Protoboard │ 3 unidades │ Montaje circuitos │
@@ -92,7 +92,7 @@ _Duración estimada: 45 minutos_
 | V_R1 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
 | V_R2 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
 | V_R3 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
-| Suma V_R1 + V_R2 + V_R3 | **9 V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
+| **Suma V_R1 + V_R2 + V_R3** | **9 V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
 
 **Paso 4.1.3 - Mediciones de Corriente** 
 - [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
@@ -315,19 +315,21 @@ _Duración estimada: 25 minutos_
 
 ### 8.3. INCIDENCIAS Y OBSERVACIONES
 
+<div>
 <textarea id="observations" placeholder="Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos..." rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;">```Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...```</textarea>
+<div>
 
 ---
 
 ## 9. RECURSOS DE APOYO
 
 ### 9.1. Documentación técnica
-- [Guía oficial TinkerCAD Circuits](https://www.tinkercad.com/learn/circuits)
+- [Guía oficial Tinkercad Circuits](https://www.tinkercad.com/learn/circuits)
 - [Tutorial mediciones con polímetro virtual](https://www.tinkercad.com/things/0xqL1dF2d7F)
 - [Tabla código colores resistencias](https://www.allaboutcircuits.com/tools/resistor-color-code-calculator/)
 
 ### 9.2. Videotutoriales
-- [Introducción a TinkerCAD Circuits](https://youtube.com/watch?v=yaS7m84YeD8)
+- [Introducción a Tinkercad Circuits](https://youtube.com/watch?v=yaS7m84YeD8)
 - [Mediciones con polímetro virtual](https://youtube.com/watch?v=2-4L0gTjXsQ)
 - [Circuitos serie, paralelo y mixto](https://youtube.com/watch?v=7vfd)
 
