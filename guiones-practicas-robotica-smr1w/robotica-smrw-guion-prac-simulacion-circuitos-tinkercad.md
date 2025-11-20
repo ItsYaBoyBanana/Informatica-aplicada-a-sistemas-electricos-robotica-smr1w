@@ -89,7 +89,7 @@ _Duración estimada: 45 minutos_
 
 ### 4.3. Mediciones de Voltaje 
 
-- **Caída de tensión en cada resistor**: Vn = I × Rn  
+- Caída de tensión en cada resistor: **Vn = I × Rn**  
 
 | Punto de Medición | Valor Teórico | Valor Medido | Diferencia |
 |-------------------|---------------|--------------|------------|
