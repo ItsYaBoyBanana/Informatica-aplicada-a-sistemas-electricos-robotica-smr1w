@@ -163,7 +163,7 @@ _Duración estimada: 45 minutos_
 | R1 | 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
 | R2 | 330 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
 | R3 | 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
-| **Total** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
+| **R_Total** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
 
 ### 5.4. Mediciones de Voltaje      
 - [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   V```  
@@ -216,8 +216,8 @@ _Duración estimada: 45 minutos_
 | Elemento        | Símbolo con subíndice | Descripción                     |
 | --------------- | --------------------- | ------------------------------- |
 | Corriente total | ( I_{\text{total}} )  | Corriente que entra al circuito |
-| Corriente R2    | ( I_1 )               | Corriente que pasa por R2       |
-| Corriente R3    | ( I_2 )               | Corriente que pasa por R3       |
+| Corriente R2    | ( I_R2 )               | Corriente que pasa por R2       |
+| Corriente R3    | ( I_R3 )               | Corriente que pasa por R3       |
 | Voltaje R1      | ( V_{R1} )            | Caída de tensión en R1          |
 | Voltaje R2      | ( V_{R2} )            | Caída de tensión en R2          |
 | Voltaje R3      | ( V_{R3} )            | Caída de tensión en R3          |
