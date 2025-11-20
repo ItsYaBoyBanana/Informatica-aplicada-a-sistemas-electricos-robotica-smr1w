@@ -97,7 +97,7 @@ _Duración estimada: 45 minutos_
 | V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
 | V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
 | V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
-| **Suma V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | **<span id="sum_voltages_serie"></span> V** | **<span id="diff_voltages_serie"></span> V** |
+| **V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | **<span id="sum_voltages_serie"></span> V** | **<span id="diff_voltages_serie"></span> V** |
 
 ### 4.4. Mediciones de Corriente 
 - [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
@@ -108,7 +108,7 @@ _Duración estimada: 45 minutos_
 ### 4.5. Cálculos teóricos    
 
 - Resistencia Total (R<sub>T</sub>) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```  
-- Corriente teórica (I) = V / R<sub>T</sub> = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
+- Corriente teórica (I<sub>T</sub>) = V / R<sub>T</sub> = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
 - Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> A × 220 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   V```  
 - Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   V```  
 - Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   V```  
@@ -215,12 +215,12 @@ _Duración estimada: 45 minutos_
        
 | Elemento        | Símbolo con subíndice | Descripción                     |
 | --------------- | --------------------- | ------------------------------- |
-| Corriente total | ( I_{\text{total}} )  | Corriente que entra al circuito |
-| Corriente R2    | ( I_R2 )               | Corriente que pasa por R2       |
-| Corriente R3    | ( I_R3 )               | Corriente que pasa por R3       |
-| Voltaje R1      | ( V_{R1} )            | Caída de tensión en R1          |
-| Voltaje R2      | ( V_{R2} )            | Caída de tensión en R2          |
-| Voltaje R3      | ( V_{R3} )            | Caída de tensión en R3          |
+| Corriente total |  I<sub>T</sub>        | Corriente que entra al circuito |
+| Corriente R2    |  I<sub>R2</sub>       | Corriente que pasa por R2       |
+| Corriente R3    |  I<sub>R3</sub>       | Corriente que pasa por R3       |
+| Voltaje R1      |  V<sub>R1</sub>       | Caída de tensión en R1          |
+| Voltaje R2      |  V<sub>R2</sub>       | Caída de tensión en R2          |
+| Voltaje R3      |  V<sub>R3</sub>       | Caída de tensión en R3          |
 
 
 
