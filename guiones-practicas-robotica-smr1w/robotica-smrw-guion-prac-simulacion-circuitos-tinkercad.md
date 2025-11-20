@@ -113,7 +113,7 @@ _Duración estimada: 45 minutos_
 - Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   V```  
 - Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   V```  
 
-### 4.6. Captura circuito 1 (Serie)
+### 4.6. Captura del circuito (Serie)
 
 <div class="screenshot-section">
     <div class="screenshot-instructions">
@@ -136,7 +136,7 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 5. Circuito 2 (Paralelo) 
+## 5. Diseño del circuito Paralelo CC 
 _Duración estimada: 45 minutos_
 
 ### 5.1. Diseño del circuito
@@ -179,7 +179,7 @@ _Duración estimada: 45 minutos_
 - I_R2 = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> A
 - I_R3 = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> A
 
-### 5.6. Captura circuito 2 (Paralelo)
+### 5.6. Captura del circuito (Paralelo)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito paralelo:</label>
@@ -190,19 +190,44 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 6. Circuito 3 (mixto)  
+## 6. Diseño del circuito mixto CC  
 _Duración estimada: 45 minutos_
 
-### 6.1. Diseño del circuito
-┌─────────────────────────────────────────────────────────────┐
-│ CIRCUITO MIXTO - ESQUEMA │
-├─────────────────────────────────────────────────────────────┤
-│ +9 V ---[R1]---+---[R2]---+--- 0 V │
-│ | | │
-│ [R3] [R4] │
-│ | | │
-│ +-----------+ │
-└─────────────────────────────────────────────────────────────┘
+### 6.1. Diseño del circuito  
+                DIAGRAMA ELÉCTRICO (ANSI/IEC)
+
+                     I_total →
+      +----------------------------------------------------+
+      |                                                    |
+      |       [ R1 220Ω ]                                  |
+      |       <----- V_R1 ----->                           |
+      |                                                    |
+      +---------------+-------------------------+----------+
+                      |                         |
+                      |                         |
+                      |                         |
+                  I2 →|                     I3 →|
+            +---------[ R2 330Ω ]      +---------[ R3 470Ω ]
+            |        <--- V_R2 --->    |        <--- V_R3 --->      
+            |                           |
+            +------------+--------------+
+                         |
+                         |
+      +------------------+
+      |     +  9 V  –  
+      +------|‾‾‾‾|------+
+
+
+| Elemento        | Símbolo con subíndice | Descripción                     |
+| --------------- | --------------------- | ------------------------------- |
+| Corriente total | ( I_{\text{total}} )  | Corriente que entra al circuito |
+| Corriente R2    | ( I_1 )               | Corriente que pasa por R2       |
+| Corriente R3    | ( I_2 )               | Corriente que pasa por R3       |
+| Voltaje R1      | ( V_{R1} )            | Caída de tensión en R1          |
+| Voltaje R2      | ( V_{R2} )            | Caída de tensión en R2          |
+| Voltaje R3      | ( V_{R3} )            | Caída de tensión en R3          |
+
+
 
 ### 6.2. Valores de resistencias recomendados:    
 - R1 = 1 kΩ
@@ -237,7 +262,7 @@ _Duración estimada: 45 minutos_
 - V_paralelo = I_total × R_paralelo = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> V
 - V_R2 = I_total × R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> V
 
-### 6.6. Captura circuito 3 (Mixto)
+### 6.6. Captura circuito mixo (Mixto)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito mixto:</label>
