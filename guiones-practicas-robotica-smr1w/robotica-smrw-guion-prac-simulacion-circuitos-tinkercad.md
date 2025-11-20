@@ -39,11 +39,11 @@
 ## 3. HERRAMIENTAS Y MATERIAL NECESARIO
 
 ### 3.1. Software
-- [ ] **Tinkercad** Plataforma online de simulación: (https://www.tinkercad.com/)  
+- [ ] **Tinkercad** (Plataforma online de simulación): https://www.tinkercad.com/  
 - [ ] Navegador web actualizado (Chrome/Firefox recomendado)
 - [ ] Cuenta en Autodesk (gratuita)
 
-### 3.2. Componentes Virtuales Necesarios
+### 3.2. Componentes virtuales 
 ┌─────────────────────────────────────────────────────────────┐
 │ COMPONENTES PARA TINKERCAD │
 ├──────────────────────┬──────────────────┬───────────────────┤
