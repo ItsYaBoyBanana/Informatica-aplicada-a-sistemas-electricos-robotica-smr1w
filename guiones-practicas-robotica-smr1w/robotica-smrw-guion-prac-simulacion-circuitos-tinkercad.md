@@ -257,7 +257,7 @@ _Duración estimada: 45 minutos_
 - V_paralelo = I_total × R_paralelo = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> V
 - V_R2 = I_total × R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> V
 
-### 6.6. Captura circuito mixo (Mixto)
+### 6.6. Captura circuito combinado (serie-paralelo)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito mixto:</label>
