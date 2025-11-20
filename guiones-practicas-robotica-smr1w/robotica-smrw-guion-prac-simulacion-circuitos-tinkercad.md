@@ -78,14 +78,14 @@ _Duración estimada: 45 minutos_
 │ V1 V2 V3 V4 │
 └─────────────────────────────────────────────────────────────┘
 
-**Paso 4.1.1 - Montaje en Protoboard**
+**Paso 4.1.1. Montaje en Protoboard**
 1. [ ] Colocar batería 9 V en protoboard
 2. [ ] Conectar R1 (220 Ω) en serie con R2 (330 Ω)
 3. [ ] Conectar R2 en serie con R3 (470 Ω)
 4. [ ] Completar circuito cerrado
 5. [ ] Verificar conexiones correctas
 
-**Paso 4.1.2 - Mediciones de Voltaje**
+**Paso 4.1.2. Mediciones de Voltaje**
 | Punto de Medición | Valor Teórico | Valor Medido | Diferencia |
 |-------------------|---------------|--------------|------------|
 | V1 (Total) | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
@@ -94,13 +94,13 @@ _Duración estimada: 45 minutos_
 | V_R3 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
 | **Suma V_R1 + V_R2 + V_R3** | **9 V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
 
-**Paso 4.1.3 - Mediciones de Corriente** 
+**Paso 4.1.3. Mediciones de Corriente** 
 - [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
 - [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> ```   A```   
 - [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> ```   A```  
 - [ ] **Verificación:** I_R1 = I_R2 = I_R3 = <span id="current_verification_serie"></span> ```   A```
 
-**Paso 4.1.4 - Cálculos teóricos**  
+**Paso 4.1.4. Cálculos teóricos**  
 
 - Resistencia Total (R_T) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```  
 - Corriente teórica (I) = V / R_T = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
@@ -147,12 +147,12 @@ _Duración estimada: 45 minutos_
 │ I1 I2 I3 │
 └─────────────────────────────────────────────────────────────┘
 
-**Paso 5.1.1 - Montaje en nueva Protoboard**
+**Paso 5.1.1. Montaje en nueva Protoboard**
 1. [ ] Colocar batería 9 V
 2. [ ] Conectar R1, R2, R3 en paralelo
 3. [ ] Verificar que todas las resistencias tengan mismo voltaje
 
-**Paso 5.1.2 - Mediciones de Corriente**    
+**Paso 5.1.2. Mediciones de Corriente**    
 | Rama | Resistencia | Corriente Teórica | Corriente Medida | Diferencia |
 |------|-------------|-------------------|------------------|------------|
 | R1 | 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
@@ -160,13 +160,13 @@ _Duración estimada: 45 minutos_
 | R3 | 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
 | **Total** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
 
-**Paso 5.1.3 - Mediciones de Voltaje**    
+**Paso 5.1.3. Mediciones de Voltaje**    
 - [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   V```  
 - [ ] Voltaje en R2: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r2"> ```   V```  
 - [ ] Voltaje en R3: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r3"> ```   V```  
 - [ ] **Verificación:** V_R1 = V_R2 = V_R3 = 9 V
 
-**Paso 5.1.4 - Cálculos teóricos**  
+**Paso 5.1.4. Cálculos teóricos**  
 - 1/R_T = 1/R1 + 1/R2 + 1/R3 = 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω
 - R_Total = <span id="r_total_calc_paralelo"></span> Ω
 - I_Total = V / R_T = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> A
@@ -205,12 +205,12 @@ _Duración estimada: 45 minutos_
 - R3 = 330 Ω
 - R4 = 470 Ω
 
-**Paso 6.1.2 - Montaje**  
+**Paso 6.1.2. Montaje**  
 1. [ ] Colocar R1 en serie con combinación R2-R3-R4
 2. [ ] Conectar R3 y R4 en paralelo entre R1 y R2
 3. [ ] Verificar todas las conexiones
 
-**Paso 6.1.3 - Mediciones**  
+**Paso 6.1.3. Mediciones**  
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
 | V Total | 9 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
@@ -224,7 +224,7 @@ _Duración estimada: 45 minutos_
 | I_R3 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
 | I_R4 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A |
 
-**Paso 6.1.4 - Cálculos**  
+**Paso 6.1.4. Cálculos**  
 - R_paralelo = (R3 × R4) / (R3 + R4) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> Ω
 - R_total = R1 + R_paralelo + R2 = <span id="r_total_mixto"></span> Ω
 - I_total = 9V / R_total = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> A
@@ -259,7 +259,7 @@ _Duración estimada: 25 minutos_
 - [ ] Verificar polaridad (ánodo +, cátodo -)
 - [ ] Observar intensidad luminosa según resistencia
 
-**Paso 7.1.2 - Mediciones**
+**Paso 7.1.2. Mediciones**
 - [ ] Corriente en LED rojo: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_rojo"> A
 - [ ] Corriente en LED verde: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_verde"> A
 - [ ] Corriente en LED azul: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> A
@@ -314,11 +314,7 @@ _Duración estimada: 25 minutos_
 
 ### 8.3. INCIDENCIAS Y OBSERVACIONES
 
-
-<div>
 <textarea id="observations" placeholder="Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos..." rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;"><pre>Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...</pre></textarea>
-</div>
-
 
 ---
 
