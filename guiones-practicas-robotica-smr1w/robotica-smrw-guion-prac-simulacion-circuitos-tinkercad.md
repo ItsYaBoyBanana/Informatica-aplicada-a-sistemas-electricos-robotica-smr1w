@@ -127,6 +127,8 @@ _Duración estimada: 45 minutos_
         <div id="screenshotPreviewSerie" class="screenshot-preview"></div>
     </div>
 </div>
+</pre>
+
 
 ---
 
