@@ -163,7 +163,7 @@ _Duración estimada: 45 minutos_
 | I<sub>R1</sub> | R1 = 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1">  | <input type="text" class="difference" readonly>  |
 | I<sub>R2</sub> | R2= 330 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r2_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r2">  | <input type="text" class="difference" readonly>  |
 | I<sub>R3</sub> | R3 = 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3">  | <input type="text" class="difference" readonly>  |
-| **R<sub>T</sub>** | **<span id="r_total_paralelo"></span>** | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> R1 + R2 + R3 | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total">  | <input type="text" class="difference" readonly>  |
+| **R<sub>T</sub>** | **<span id="r_total_paralelo"></span>** | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total">  | <input type="text" class="difference" readonly>  |
 
 ### 5.4. Mediciones de Voltaje      
 - [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   ```V    
