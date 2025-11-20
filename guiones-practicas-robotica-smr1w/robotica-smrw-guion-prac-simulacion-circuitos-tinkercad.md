@@ -314,9 +314,11 @@ _Duración estimada: 25 minutos_
 
 ### 8.3. INCIDENCIAS Y OBSERVACIONES
 
+
 <div>
 <textarea id="observations" placeholder="Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos..." rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;"><pre>Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...</pre></textarea>
 </div>
+
 
 ---
 
