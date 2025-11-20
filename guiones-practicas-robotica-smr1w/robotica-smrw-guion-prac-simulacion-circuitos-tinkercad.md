@@ -62,8 +62,8 @@
 - **R1:** 220 Ω `rojo-rojo-marrón`
 - **R2:** 330 Ω `naranja-naranja-marrón` 
 - **R3:** 470 Ω `amarillo-violeta-marrón`
-- **R4:** 1 kΩ `marrón-negro-rojo`
-- **R5:** 2.2 kΩ `rojo-rojo-rojo`  
+<!-- **R4:** 1 kΩ `marrón-negro-rojo`
+- **R5:** 2.2 kΩ `rojo-rojo-rojo`  -->
 
 ---
 
@@ -89,14 +89,14 @@ _Duración estimada: 45 minutos_
 
 ### 4.3. Mediciones de Voltaje 
 
-- Caída de tensión en cada resistor: V<sub>R<sub>n</sub></sub> = I × R<sub>n</sub> 
+Caída de tensión en cada resistor: V<sub>R<sub>n</sub></sub> = I × R<sub>n</sub> 
 
 | Punto de Medición | Valor Teórico | Valor Medido | Diferencia |
 |-------------------|---------------|--------------|------------|
-| V<sub>T</sub>     | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
-| V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
-| V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
-| V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
+| V<sub>T</sub>     | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total"><code>  V</code>| <input type="text" class="difference" readonly><code>  <code>  V</code></code>|
+| V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r1"> <code>  V</code>| <input type="text" class="difference" readonly> <code>  V</code> |
+| V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> <code>  V</code> | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> <code>  V</code> | <input type="text" class="difference" readonly> <code>  V</code> |
+| V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> <code>  V</code> | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> <code>  V</code> | <input type="text" class="difference" readonly> <code>  V</code>|
 | **V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | **<span id="sum_voltages_serie"></span> V** | **<span id="diff_voltages_serie"></span> V** |
 
 ### 4.4. Mediciones de Corriente 
