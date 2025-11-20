@@ -7,23 +7,6 @@
 
 ---
 
-<div class="student-info">
-    <div class="info-field">
-        <label>Nombre completo del alumno:</label>
-        <input type="text" id="studentName" placeholder="Escribe tu nombre completo">
-    </div>
-    <div class="info-field">
-        <label>Grupo:</label>
-        <input type="text" id="studentGroup" placeholder="Ej: SMR1A">
-    </div>
-    <div class="info-field">
-        <label>Fecha de realización:</label>
-        <input type="date" id="practiceDate">
-    </div>
-</div>
-
----
-
 ## 1. OBJETIVOS DE APRENDIZAJE
 
 ### 1.1. Objetivos conceptuales
@@ -56,8 +39,8 @@
 
 ## 3. HERRAMIENTAS Y MATERIAL NECESARIO
 
-### 3.1. Software necesario
-- [ ] **TinkerCAD** (https://www.tinkercad.com/) - Plataforma online de simulación
+### 3.1. Software
+- [ ] **Tinkercad** Plataforma online de simulación: (https://www.tinkercad.com/)  
 - [ ] Navegador web actualizado (Chrome/Firefox recomendado)
 - [ ] Cuenta en Autodesk (gratuita)
 
@@ -292,6 +275,26 @@ _Duración estimada: 25 minutos_
 ---
 
 ## 8. FICHA DE TRABAJO DEL ALUMNO
+
+---
+
+<div class="student-info">
+    <div class="info-field">
+        <label>Nombre completo del alumno:</label>
+        <input type="text" id="studentName" placeholder="Escribe tu nombre completo">
+    </div>
+    <div class="info-field">
+        <label>Grupo:</label>
+        <input type="text" id="studentGroup" placeholder="Ej: SMR1A">
+    </div>
+    <div class="info-field">
+        <label>Fecha de realización:</label>
+        <input type="date" id="practiceDate">
+    </div>
+</div>
+
+---
+
 
 ### 8.1. CHECKLIST DE COMPLETACIÓN
 | Circuito | Montaje | Mediciones | Cálculos | Capturas |
