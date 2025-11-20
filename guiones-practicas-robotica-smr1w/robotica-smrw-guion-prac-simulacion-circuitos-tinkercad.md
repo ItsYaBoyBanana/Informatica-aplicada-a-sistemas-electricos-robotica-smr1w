@@ -1,6 +1,6 @@
 # Práctica: DISEÑO Y SIMULACIÓN DE CIRCUITOS ELÉCTRICOS
 **Módulo:** Informática aplicada a sistemas eléctrónicos - Robótica (CMO-313)  
-**Ciclo Formativo:** Sistemas Microinformáticos y Redes (SMR1W)
+**Ciclo Formativo:** Sistemas Microinformáticos y Redes (SMR1W)  
 **Profesor:** Ezequiel Llarena Borges  
 **Duración:** 3 horas  
 **Fecha:** `  ...  `
