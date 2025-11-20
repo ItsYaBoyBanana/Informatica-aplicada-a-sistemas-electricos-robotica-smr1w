@@ -123,7 +123,7 @@ _Duración estimada: 45 minutos_
     <div class="screenshot-upload">
         <label>Insertar captura del circuito serie:</label>
         <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
-        <div id="screenshotPreviewSerie" class="screenshot-preview">```   ```</div>
+        <div id="screenshotPreviewSerie" class="screenshot-preview"><pre>...</pre></div>
     </div>
 </div>
 
