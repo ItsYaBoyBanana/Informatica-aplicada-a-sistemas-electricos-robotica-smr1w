@@ -163,7 +163,7 @@ _Duración estimada: 45 minutos_
 | I<sub>R1</sub> | R1 = 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1">  | <input type="text" class="difference" readonly>  |
 | I<sub>R2</sub> | R2= 330 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r2_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r2">  | <input type="text" class="difference" readonly>  |
 | I<sub>R3</sub> | R3 = 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3">  | <input type="text" class="difference" readonly>  |
-| **R<sub>T</sub>** | **<span id="r_total_paralelo"></span>** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> ** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> ** | **<input type="text" class="difference" readonly> ** |
+| **R<sub>T</sub>** | **<span id="r_total_paralelo"></span>** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo">  | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> ** | **<input type="text" class="difference" readonly>  |
 
 ### 5.4. Mediciones de Voltaje      
 - [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   ```V    
@@ -173,8 +173,8 @@ _Duración estimada: 45 minutos_
 
 ### 5.5. Cálculos teóricos    
 $\frac{1}{R_T} = \frac{1}{R1} + \frac{1}{R2} + \frac{1}{R3} =$ 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> ```   ```Ω  
-R<sub>Total</sub> = <span id="r_total_calc_paralelo"></span> ```   ```Ω  
-I<sub>Total</sub> = V / R<sub>T</sub> = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> ```   ```A  
+R<sub>T</sub> = <span id="r_total_calc_paralelo"></span> ```   ```Ω  
+I<sub>T</sub> = V / R<sub>T</sub> = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> ```   ```A  
 I<sub>R1</sub> = 9 V / 220 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r1_theo"> ```   ```A  
 I<sub>R2</sub> = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> ```   ```A  
 I<sub>R3</sub> = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> ```   ```A  
