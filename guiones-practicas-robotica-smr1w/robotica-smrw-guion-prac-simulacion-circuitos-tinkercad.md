@@ -9,7 +9,7 @@
 
 ---
 
-## 1. OBJETIVOS
+## 1. Objetivos
 
 ### 1.1. Objetivos conceptuales
 - [ ] Comprender las leyes fundamentales de circuitos eléctricos (Ley de Ohm, Kirchhoff)
@@ -28,7 +28,7 @@
 
 ---
 
-## 2. CRITERIOS DE EVALUACIÓN
+## 2. Criterios de evaluación
 
 | Criterio | Ponderación | Evidencias |
 |----------|-------------|------------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 3. HERRAMIENTAS Y MATERIAL NECESARIO
+## 3. Herramientas y material necesario
 
 ### 3.1. Software
 - [ ] [Plataforma online de simulación Tinkercad](https://www.tinkercad.com/)  
@@ -69,7 +69,7 @@
 
 ---
 
-## 4. CIRCUITO 1: SERIE
+## 4. Circuito 1 (Serie)
 _Duración estimada: 45 minutos_
 
 ### 4.1. Diseño del circuito
@@ -81,14 +81,14 @@ _Duración estimada: 45 minutos_
 │ V1 V2 V3 V4 │
 └─────────────────────────────────────────────────────────────┘
 
-**Paso 4.1.1. Montaje en Protoboard**
+### 4.2. Montaje en Protoboard
 1. [ ] Colocar batería 9 V en protoboard
 2. [ ] Conectar R1 (220 Ω) en serie con R2 (330 Ω)
 3. [ ] Conectar R2 en serie con R3 (470 Ω)
 4. [ ] Completar circuito cerrado
 5. [ ] Verificar conexiones correctas
 
-**Paso 4.1.2. Mediciones de Voltaje**
+### 4.3. Mediciones de Voltaje  
 | Punto de Medición | Valor Teórico | Valor Medido | Diferencia |
 |-------------------|---------------|--------------|------------|
 | V1 (Total) | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
@@ -97,13 +97,13 @@ _Duración estimada: 45 minutos_
 | V_R3 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
 | **Suma V_R1 + V_R2 + V_R3** | **9 V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
 
-**Paso 4.1.3. Mediciones de Corriente** 
+### 4.4. Mediciones de Corriente 
 - [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
 - [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> ```   A```   
 - [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> ```   A```  
 - [ ] **Verificación:** I_R1 = I_R2 = I_R3 = <span id="current_verification_serie"></span> ```   A```
 
-**Paso 4.1.4. Cálculos teóricos**  
+### 4.5. Cálculos teóricos    
 
 - Resistencia Total (R_T) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```  
 - Corriente teórica (I) = V / R_T = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
@@ -111,7 +111,7 @@ _Duración estimada: 45 minutos_
 - Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   V```  
 - Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   V```  
 
-### 4.2. Captura circuito 1 (Serie)
+### 4.6. Captura circuito 1 (Serie)
 
 <div class="screenshot-section">
     <div class="screenshot-instructions">
@@ -134,7 +134,7 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 5. CIRCUITO 2: PARALELO 
+## 5. Circuito 2 (Paralelo) 
 _Duración estimada: 45 minutos_
 
 ### 5.1. Diseño del circuito
@@ -150,12 +150,12 @@ _Duración estimada: 45 minutos_
 │ I1 I2 I3 │
 └─────────────────────────────────────────────────────────────┘
 
-**Paso 5.1.1. Montaje en nueva Protoboard**
+### 5.2. Montaje en nueva Protoboard 
 1. [ ] Colocar batería 9 V
 2. [ ] Conectar R1, R2, R3 en paralelo
 3. [ ] Verificar que todas las resistencias tengan mismo voltaje
 
-**Paso 5.1.2. Mediciones de Corriente**    
+### 5.3. Mediciones de Corriente      
 | Rama | Resistencia | Corriente Teórica | Corriente Medida | Diferencia |
 |------|-------------|-------------------|------------------|------------|
 | R1 | 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
@@ -163,13 +163,13 @@ _Duración estimada: 45 minutos_
 | R3 | 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
 | **Total** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
 
-**Paso 5.1.3. Mediciones de Voltaje**    
+### 5.4. Mediciones de Voltaje      
 - [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   V```  
 - [ ] Voltaje en R2: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r2"> ```   V```  
 - [ ] Voltaje en R3: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r3"> ```   V```  
 - [ ] **Verificación:** V_R1 = V_R2 = V_R3 = 9 V
 
-**Paso 5.1.4. Cálculos teóricos**  
+### 5.5. Cálculos teóricos    
 - 1/R_T = 1/R1 + 1/R2 + 1/R3 = 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω
 - R_Total = <span id="r_total_calc_paralelo"></span> Ω
 - I_Total = V / R_T = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> A
@@ -177,7 +177,7 @@ _Duración estimada: 45 minutos_
 - I_R2 = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> A
 - I_R3 = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> A
 
-### 5.1.5. Captura circuito 2 (Paralelo)
+### 5.6. Captura circuito 2 (Paralelo)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito paralelo:</label>
@@ -188,7 +188,7 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 6. CIRCUITO 3: MIXTO
+## 6. Circuito 3 (mixto)  
 _Duración estimada: 45 minutos_
 
 ### 6.1. Diseño del circuito
@@ -202,18 +202,18 @@ _Duración estimada: 45 minutos_
 │ +-----------+ │
 └─────────────────────────────────────────────────────────────┘
 
-**6.1.1. Valores de resistencias recomendados:**  
+### 6.2. Valores de resistencias recomendados:    
 - R1 = 1 kΩ
 - R2 = 2.2 kΩ
 - R3 = 330 Ω
 - R4 = 470 Ω
 
-**Paso 6.1.2. Montaje**  
+### 6.3. Montaje    
 1. [ ] Colocar R1 en serie con combinación R2-R3-R4
 2. [ ] Conectar R3 y R4 en paralelo entre R1 y R2
 3. [ ] Verificar todas las conexiones
 
-**Paso 6.1.3. Mediciones**  
+### 6.4. Mediciones    
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
 | V Total | 9 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
@@ -227,7 +227,7 @@ _Duración estimada: 45 minutos_
 | I_R3 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
 | I_R4 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A |
 
-**Paso 6.1.4. Cálculos**  
+### 6.5. Cálculos    
 - R_paralelo = (R3 × R4) / (R3 + R4) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> Ω
 - R_total = R1 + R_paralelo + R2 = <span id="r_total_mixto"></span> Ω
 - I_total = 9V / R_total = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> A
@@ -235,7 +235,7 @@ _Duración estimada: 45 minutos_
 - V_paralelo = I_total × R_paralelo = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> V
 - V_R2 = I_total × R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> V
 
-### 6.1.5. Captura circuito 3 (Mixto)
+### 6.6. Captura circuito 3 (Mixto)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito mixto:</label>
@@ -258,18 +258,18 @@ _Duración estimada: 25 minutos_
 │ [R3 470 Ω]---[LED Azul]---- │
 └─────────────────────────────────────────────────────────────┘
 
-**Paso 7.1.1. Consideraciones Leds**
+### 7.2. Consideraciones Leds  
 - [ ] Los LEDs requieren resistencia limitadora de corriente
 - [ ] Verificar polaridad (ánodo +, cátodo -)
 - [ ] Observar intensidad luminosa según resistencia
 
-**Paso 7.1.2. Mediciones**
+### 7.3. Mediciones  
 - [ ] Corriente en LED rojo: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_rojo"> A
 - [ ] Corriente en LED verde: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_verde"> A
 - [ ] Corriente en LED azul: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> A
 - [ ] Voltaje en cada LED: <input type="text" class="measurement" data-circuit="leds" data-measure="v_led"> V
 
-### 7.1.3. Captura circuito con leds  
+### 7.4. Captura circuito con leds  
 
 <div class="screenshot-section">
     <div class="screenshot-upload">
@@ -301,7 +301,7 @@ _Duración estimada: 25 minutos_
 ---
 
 
-### 8.1. CHECKLIST DE COMPLETACIÓN
+### 8.1. Checklist de realización
 | Circuito | Montaje | Mediciones | Cálculos | Capturas |
 |----------|---------|------------|----------|----------|
 | Serie | ☐ | ☐ | ☐ | ☐ |
@@ -309,14 +309,14 @@ _Duración estimada: 25 minutos_
 | Mixto | ☐ | ☐ | ☐ | ☐ |
 | LEDs (opc) | ☐ | ☐ | ☐ | ☐ |
 
-### 8.2. VERIFICACIÓN LEYES FUNDAMENTALES
+### 8.2. Verificación leyes fundamentales
 | Ley | Circuito Serie | Circuito Paralelo | Circuito Mixto |
 |-----|----------------|-------------------|----------------|
 | **Ley de Ohm** (V = I × R) | ☐ Correcta | ☐ Correcta | ☐ Correcta |
 | **Kirchhoff Voltajes** (ΣV = 0) | ☐ Verificada | ☐ Verificada | ☐ Verificada |
 | **Kirchhoff Corrientes** (ΣI = 0) | ☐ Verificada | ☐ Verificada | ☐ Verificada |
 
-### 8.3. INCIDENCIAS Y OBSERVACIONES  
+### 8.3. Incidencias y observaciones  
 Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos:  
 
 <pre>   ...   </pre>
@@ -325,7 +325,7 @@ Describe aquí las dificultades encontradas, diferencias entre valores teóricos
 
 ---
 
-## 9. RECURSOS DE APOYO
+## 9. Recursos de apoyo
 
 ### 9.1. Documentación técnica
 - [Guía oficial Tinkercad circuits](https://www.tinkercad.com/learn/circuits)
