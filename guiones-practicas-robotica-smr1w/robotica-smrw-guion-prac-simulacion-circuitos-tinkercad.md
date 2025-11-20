@@ -91,27 +91,27 @@ _Duración estimada: 45 minutos_
 
 Caída de tensión en cada resistor: V<sub>R<sub>n</sub></sub> = I × R<sub>n</sub> 
 
-| Punto de Medición | Valor Teórico | Valor Medido | Diferencia |
+| Punto de Medición | Valor Teórico (v) | Valor Medido (V) | Diferencia |
 |-------------------|---------------|--------------|------------|
-| V<sub>T</sub>     | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total"><code>  V</code>| <input type="text" class="difference" readonly><code>  <code>  V</code></code>|
-| V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r1"> <code>  V</code>| <input type="text" class="difference" readonly> <code>  V</code> |
-| V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> <code>  V</code> | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> <code>  V</code> | <input type="text" class="difference" readonly> <code>  V</code> |
-| V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> <code>  V</code> | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> <code>  V</code> | <input type="text" class="difference" readonly> <code>  V</code>|
+| V<sub>T</sub>     | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total">| <input type="text" class="difference" readonly> |
+| V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class=" " data-circuit="serie" data-measure="v_r1"> | <input type="text" class="difference" readonly>  |
+| V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2">  | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2">  | <input type="text" class="difference" readonly> |
+| V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3">  | <input type="text" class="difference" readonly> |
 | **V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | **<span id="sum_voltages_serie"></span> V** | **<span id="diff_voltages_serie"></span> V** |
 
 ### 4.4. Mediciones de Corriente 
-- [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
-- [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> ```   A```   
-- [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> ```   A```  
-- [ ] **Verificación:** I<sub>R1</sub> = I<sub>R2</sub> = I<sub>R3</sub> = <span id="current_verification_serie"></span> ```   A```
+- [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   ```A  
+- [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> ```   ```A   
+- [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> ```   ```A 
+- [ ] **Verificación:** I<sub>R1</sub> = I<sub>R2</sub> = I<sub>R3</sub> = <span id="current_verification_serie"></span> ```   ```A
 
 ### 4.5. Cálculos teóricos    
 
-- Resistencia Total (R<sub>T</sub>) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```  
-- Corriente teórica (I<sub>T</sub>) = V / R<sub>T</sub> = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
-- Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> A × 220 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   V```  
-- Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   V```  
-- Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   V```  
+- Resistencia Total (R<sub>T</sub>) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   ```Ω  
+- Corriente teórica (I<sub>T</sub>) = V / R<sub>T</sub> = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   ```A  
+- Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> A × 220 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   ```V  
+- Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   ```V  
+- Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   ```V  
 
 ### 4.6. Captura del circuito (Serie)
 
@@ -158,26 +158,26 @@ _Duración estimada: 45 minutos_
 3. [ ] Verificar que todas las resistencias tengan mismo voltaje
 
 ### 5.3. Mediciones de Corriente      
-| Rama | Resistencia | Corriente Teórica | Corriente Medida | Diferencia |
+| Rama | Resistencia | Corriente Teórica (A) | Corriente Medida (A) | Diferencia |
 |------|-------------|-------------------|------------------|------------|
-| R1 | 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
-| R2 | 330 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
-| R3 | 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
-| **R<sub>Total</sub>** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
+| R1 | 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1">  | <input type="text" class="difference" readonly>  |
+| R2 | 330 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r2">  | <input type="text" class="difference" readonly>  |
+| R3 | 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3">  | <input type="text" class="difference" readonly>  |
+| **R<sub>T</sub>** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
 
 ### 5.4. Mediciones de Voltaje      
-- [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   V```  
-- [ ] Voltaje en R2: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r2"> ```   V```  
-- [ ] Voltaje en R3: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r3"> ```   V```  
+- [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   ```V    
+- [ ] Voltaje en R2: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r2"> ```   ```V   
+- [ ] Voltaje en R3: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r3"> ```   ```V    
 - [ ] **Verificación:** V<sub>R1</sub> = V<sub>R2</sub> = V<sub>R3</sub> = 9 V
 
 ### 5.5. Cálculos teóricos    
-$\frac{1}{R_T} = \frac{1}{R1} + \frac{1}{R2} + \frac{1}{R3} =$ 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω  
-R<sub>Total</sub> = <span id="r_total_calc_paralelo"></span> Ω  
-I<sub>Total</sub> = V / R<sub>T</sub> = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> A  
-I<sub>R1</sub> = 9 V / 220 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r1_theo"> A  
-I<sub>R2</sub> = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> A  
-I<sub>R3</sub> = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> A  
+$\frac{1}{R_T} = \frac{1}{R1} + \frac{1}{R2} + \frac{1}{R3} =$ 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> ```   ```Ω  
+R<sub>Total</sub> = <span id="r_total_calc_paralelo"></span> ```   ```Ω  
+I<sub>Total</sub> = V / R<sub>T</sub> = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> ```   ```A  
+I<sub>R1</sub> = 9 V / 220 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r1_theo"> ```   ```A  
+I<sub>R2</sub> = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> ```   ```A  
+I<sub>R3</sub> = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> ```   ```A  
 
 ### 5.6. Captura del circuito (Paralelo)
 
@@ -239,23 +239,23 @@ _Duración estimada: 45 minutos_
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
 | V Total | 9 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
-| V_R1 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r1_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
-| V_R2 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r2_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
-| V_R3 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r3_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
-| V_R4 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r4_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r4"> V | <input type="text" class="difference" readonly> V |
+| V<sub>R1</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r1_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
+| V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r2_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
+| V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r3_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
+<!--| V<sub>R4<sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r4_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r4"> V | <input type="text" class="difference" readonly> V |-->
 | I Total | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_total_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_total"> A | <input type="text" class="difference" readonly> A |
-| I_R1 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
-| I_R2 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
-| I_R3 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
-| I_R4 | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A |
+| I<sub>R1</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
+| I<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
+| I<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
+<!--| I<sub>R</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A | -->
 
 ### 6.5. Cálculos    
-- R_paralelo = (R3 × R4) / (R3 + R4) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> Ω
-- R_total = R1 + R_paralelo + R2 = <span id="r_total_mixto"></span> Ω
-- I_total = 9V / R_total = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> A
-- V_R1 = I_total × R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> V
-- V_paralelo = I_total × R_paralelo = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> V
-- V_R2 = I_total × R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> V
+- (R2||R3) = (R2 \times R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
+- R<sub>T</sub> = R1 + (R2||R3) + R2 = <span id="r_total_mixto"></span> Ω
+- I<sub>T</sub> = 9V / R<sub>T</sub> = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> ```   ```A
+- V<sub>R1 = I<sub>T</sub> × R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> ```   ```V
+- V_paralelo = I<sub>T</sub> × (R2||R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
+- V<sub>R2</sub> = I<sub>T</sub> × R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> ```   ```V
 
 ### 6.6. Captura circuito combinado (serie-paralelo)
 
