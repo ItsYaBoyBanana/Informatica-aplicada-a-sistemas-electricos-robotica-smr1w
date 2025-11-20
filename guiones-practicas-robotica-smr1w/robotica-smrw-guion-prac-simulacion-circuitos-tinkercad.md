@@ -110,16 +110,17 @@ _Duración estimada: 45 minutos_
 
 ### 4.2. Captura circuito 1 (Serie)
 
-<div class="screenshot-section">
+<pre><div class="screenshot-section">
     <div class="screenshot-instructions">
         <strong>Instrucciones para captura:</strong>
         <ol>
-            <li>Completar el circuito en TinkerCAD</li>
+            <li>Completar el circuito en Tinkercad</li>
             <li>Colocar polímetros mostrando mediciones</li>
             <li>Hacer captura de pantalla (Print Screen)</li>
             <li>Pegar en un documento y guardar como imagen</li>
         </ol>
-    </div>
+    </div
+</pre>
     <div class="screenshot-upload">
         <label>Insertar captura del circuito serie:</label>
         <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
