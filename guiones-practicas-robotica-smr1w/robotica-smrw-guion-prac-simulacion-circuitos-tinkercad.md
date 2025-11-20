@@ -139,18 +139,24 @@ _Duración estimada: 45 minutos_
 ## 5. Diseño del circuito Paralelo CC 
 _Duración estimada: 45 minutos_
 
-### 5.1. Diseño del circuito
-┌─────────────────────────────────────────────────────────────┐
-│ CIRCUITO PARALELO - ESQUEMA │
-├─────────────────────────────────────────────────────────────┤
-│ +---[R1]---+ │
-│ | | │
-│ +9 V +---[R2]---+ 0 V │
-│ | | │
-│ +---[R3]---+ │
-│ | | | │
-│ I1 I2 I3 │
-└─────────────────────────────────────────────────────────────┘
+### 5.1. Esquema del circuito
+
+          CIRCUITO EN PARALELO (ANSI/ASCII IEC)
+
+                  +----[220Ω]----+
+                  |     R1       |
+     +------------+--------------+------------+
+     |            |              |            |
+     |            +----[330Ω]----+            |
+     |            |     R2       |            |
+     |            +--------------+            |
+     |            |              |            |
+     |            +----[470Ω]----+            |
+     |            |     R3       |            |
+     +------------+--------------+------------+
+                  |                            
+                  +------ (+) 9V (–) ----------+
+
 
 ### 5.2. Montaje en nueva Protoboard 
 1. [ ] Colocar batería 9 V
@@ -190,10 +196,10 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 6. Diseño del circuito mixto CC  
+## 6. Diseño del circuito combinado (serie-paralelo) en CC  
 _Duración estimada: 45 minutos_
 
-### 6.1. Diseño del circuito  
+### 6.1. Esquema del circuito  
                 DIAGRAMA ELÉCTRICO (ANSI/IEC)
 
                      I_total →
