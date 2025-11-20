@@ -231,30 +231,30 @@ _Duración estimada: 45 minutos_
 - R4 = 470 Ω
 
 ### 6.3. Montaje    
-1. [ ] Colocar R1 en serie con combinación R2-R3-R4
-2. [ ] Conectar R3 y R4 en paralelo entre R1 y R2
+1. [ ] Colocar R1 en serie en combinación R2||R3
+2. [ ] Conectar R2 y R3 en paralelo
 3. [ ] Verificar todas las conexiones
 
 ### 6.4. Mediciones    
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
-| V Total | 9 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
+| V<sub>T</sub> | 9 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
 | V<sub>R1</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r1_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
 | V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r2_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
 | V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r3_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
 <!--| V<sub>R4<sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r4_theo"> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r4"> V | <input type="text" class="difference" readonly> V |-->
-| I Total | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_total_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_total"> A | <input type="text" class="difference" readonly> A |
+| I<sub>T</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_total_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_total"> A | <input type="text" class="difference" readonly> A |
 | I<sub>R1</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
 | I<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
 | I<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
 <!--| I<sub>R</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A | -->
 
 ### 6.5. Cálculos    
-- (R2||R3) = (R2 \times R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
-- R<sub>T</sub> = R1 + (R2||R3) + R2 = <span id="r_total_mixto"></span> Ω
+- (R2||R3) = (R2 $\times$ R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
+- R<sub>T</sub> = R1 + (R2||R3) = <span id="r_total_mixto"></span> ``` ```Ω
 - I<sub>T</sub> = 9V / R<sub>T</sub> = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> ```   ```A
 - V<sub>R1 = I<sub>T</sub> × R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> ```   ```V
-- V_paralelo = I<sub>T</sub> × (R2||R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
+- V<sub>R2||R3</sub> = I<sub>T</sub> × (R2||R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
 - V<sub>R2</sub> = I<sub>T</sub> × R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> ```   ```V
 
 ### 6.6. Captura circuito combinado (serie-paralelo)
