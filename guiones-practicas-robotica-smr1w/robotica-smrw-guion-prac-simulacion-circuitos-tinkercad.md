@@ -1,8 +1,11 @@
-# Práctica: DISEÑO Y SIMULACIÓN DE CIRCUITOS ELÉCTRICOS
+# Unidad Práctica 1: Diseño y simulación de circuitos eléctricos en continua
+
 **Módulo:** Informática aplicada a sistemas eléctrónicos - Robótica (CMO-313)  
 **Ciclo Formativo:** Sistemas Microinformáticos y Redes (SMR1W)  
 **Profesor:** Ezequiel Llarena Borges  
 **Duración estimada:** 3 horas  
+**Resultados de aprendizaje a trabajar:**  
+- *RA2 - Analiza, diseña, simula y mide circuitos electrónicos en continua.*
 
 ---
 
@@ -334,3 +337,6 @@ Describe aquí las dificultades encontradas, diferencias entre valores teóricos
 - [Mediciones con polímetro virtual](https://youtube.com/watch?v=2-4L0gTjXsQ)
 - [Circuitos serie, paralelo y mixto](https://youtube.com/watch?v=7vfd)
 
+
+##  
+_&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
