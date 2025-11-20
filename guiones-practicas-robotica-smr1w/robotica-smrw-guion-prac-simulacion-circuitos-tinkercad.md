@@ -231,7 +231,7 @@ _Duración estimada: 45 minutos_
 - R4 = 470 Ω
 
 ### 6.3. Montaje    
-1. [ ] Colocar R1 en serie en combinación R2||R3
+1. [ ] Colocar R1 en serie con R2||R3
 2. [ ] Conectar R2 y R3 en paralelo
 3. [ ] Verificar todas las conexiones
 
@@ -247,7 +247,9 @@ _Duración estimada: 45 minutos_
 | I<sub>R1</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
 | I<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
 | I<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
-<!--| I<sub>R</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A | -->
+<!-- 
+| I<sub>R</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r4_theo"> A | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r4"> A | <input type="text" class="difference" readonly> A | 
+-->
 
 ### 6.5. Cálculos    
 - (R2||R3) = (R2 $\times$ R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
