@@ -110,7 +110,7 @@ _Duración estimada: 45 minutos_
 
 ### 4.2. Captura circuito 1 (Serie)
 
-<pre><div class="screenshot-section">
+<div class="screenshot-section">
     <div class="screenshot-instructions">
         <strong>Instrucciones para captura:</strong>
         <ol>
@@ -119,15 +119,16 @@ _Duración estimada: 45 minutos_
             <li>Hacer captura de pantalla (Print Screen)</li>
             <li>Pegar en un documento y guardar como imagen</li>
         </ol>
-    </div
-</pre>
+    </div>
+    <pre>
     <div class="screenshot-upload">
         <label>Insertar captura del circuito serie:</label>
         <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
         <div id="screenshotPreviewSerie" class="screenshot-preview"></div>
     </div>
+    </pre>
 </div>
-</pre>
+
 
 
 ---
