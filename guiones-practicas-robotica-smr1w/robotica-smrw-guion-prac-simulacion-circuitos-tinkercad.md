@@ -172,12 +172,12 @@ _Duración estimada: 45 minutos_
 - [ ] **Verificación:** V<sub>R1</sub> = V<sub>R2</sub> = V<sub>R3</sub> = 9 V
 
 ### 5.5. Cálculos teóricos    
-$\frac{1}{R_T} = \frac{1}{R1} + \frac{1}{R2} + \frac{1}{R3} =$ 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω
-R<sub>Total</sub> = <span id="r_total_calc_paralelo"></span> Ω
-I<sub>Total</sub> = V / R<sub>T</sub> = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> A
-I<sub>R1</sub> = 9 V / 220 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r1_theo"> A
-I<sub>R2</sub> = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> A
-I<sub>R3</sub> = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> A
+$\frac{1}{R_T} = \frac{1}{R1} + \frac{1}{R2} + \frac{1}{R3} =$ 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω  
+R<sub>Total</sub> = <span id="r_total_calc_paralelo"></span> Ω  
+I<sub>Total</sub> = V / R<sub>T</sub> = 9 V / <span id="r_total_for_current"></span> Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_total_theo"> A  
+I<sub>R1</sub> = 9 V / 220 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r1_theo"> A  
+I<sub>R2</sub> = 9 V / 330 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r2_theo"> A  
+I<sub>R3</sub> = 9 V / 470 Ω = <input type="text" class="calculation" data-circuit="paralelo" data-calc="i_r3_theo"> A  
 
 ### 5.6. Captura del circuito (Paralelo)
 
