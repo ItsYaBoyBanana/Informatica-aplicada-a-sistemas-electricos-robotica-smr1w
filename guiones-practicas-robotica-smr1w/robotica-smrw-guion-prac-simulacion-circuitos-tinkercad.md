@@ -123,7 +123,7 @@ _Duración estimada: 45 minutos_
     <div class="screenshot-upload">
         <label>Insertar captura del circuito serie:</label>
         <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
-        <div id="screenshotPreviewSerie" class="screenshot-preview"><pre>...</pre></div>
+        <div id="screenshotPreviewSerie" class="screenshot-preview"><pre>circuito-serie.jpg</pre></div>
     </div>
 </div>
 
@@ -176,11 +176,10 @@ _Duración estimada: 45 minutos_
 
 ### 5.1.5. Captura circuito 2 (Paralelo)
 
-<div class="screenshot-section">
-    <div class="screenshot-upload">
-        <label>Insertar captura del circuito paralelo:</label>
-        <input type="file" id="screenshotParalelo" accept="image/*" class="screenshot-input">
-        <div id="screenshotPreviewParalelo" class="screenshot-preview"></div>
+   <div class="screenshot-upload">
+        <label>Insertar captura del circuito serie:</label>
+        <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
+        <div id="screenshotPreviewSerie" class="screenshot-preview"><pre>circuito-paralelo.jpg</pre></div>
     </div>
 </div>
 
@@ -235,11 +234,10 @@ _Duración estimada: 45 minutos_
 
 ### 6.1.5. Captura circuito 3 (Mixto)
 
-<div class="screenshot-section">
     <div class="screenshot-upload">
-        <label>Insertar captura del circuito mixto:</label>
-        <input type="file" id="screenshotMixto" accept="image/*" class="screenshot-input">
-        <div id="screenshotPreviewMixto" class="screenshot-preview"></div>
+        <label>Insertar captura del circuito serie:</label>
+        <input type="file" id="screenshotSerie" accept="image/*" class="screenshot-input">
+        <div id="screenshotPreviewSerie" class="screenshot-preview"><pre>circuito-mixto.jpg</pre></div>
     </div>
 </div>
 
@@ -274,7 +272,7 @@ _Duración estimada: 25 minutos_
     <div class="screenshot-upload">
         <label>Insertar captura del circuito con LEDs:</label>
         <input type="file" id="screenshotLEDs" accept="image/*" class="screenshot-input">
-        <div id="screenshotPreviewLEDs" class="screenshot-preview"></div>
+        <div id="screenshotPreviewLEDs" class="screenshot-preview"><pre>circuito-led.jpg</pre></div>
     </div>
 </div>
 
