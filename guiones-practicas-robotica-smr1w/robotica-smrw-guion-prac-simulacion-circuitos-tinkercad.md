@@ -89,7 +89,7 @@ _Duración estimada: 45 minutos_
 
 ### 4.3. Mediciones de Voltaje 
 
-- Caída de tensión en cada resistor: V<sub>R</sub> = I × R<sub>n</sub> 
+- Caída de tensión en cada resistor: V<sub>R<sub>n</sub></sub> = I × R<sub>n</sub> 
 
 | Punto de Medición | Valor Teórico | Valor Medido | Diferencia |
 |-------------------|---------------|--------------|------------|
@@ -163,13 +163,13 @@ _Duración estimada: 45 minutos_
 | R1 | 220 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r1_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r1"> A | <input type="text" class="difference" readonly> A |
 | R2 | 330 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r2_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r2"> A | <input type="text" class="difference" readonly> A |
 | R3 | 470 Ω | <input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_r3_theo"> A | <input type="text" class="measurement" data-circuit="paralelo" data-measure="i_r3"> A | <input type="text" class="difference" readonly> A |
-| **R_Total** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
+| **R<sub>Total</sub>** | **<span id="r_total_paralelo">___</span> Ω** | **<input type="text" class="theoretical" data-circuit="paralelo" data-measure="i_total_theo"> A** | **<input type="text" class="measurement" data-circuit="paralelo" data-measure="i_total"> A** | **<input type="text" class="difference" readonly> A** |
 
 ### 5.4. Mediciones de Voltaje      
 - [ ] Voltaje en R1: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r1"> ```   V```  
 - [ ] Voltaje en R2: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r2"> ```   V```  
 - [ ] Voltaje en R3: <input type="text" class="measurement" data-circuit="paralelo" data-measure="v_r3"> ```   V```  
-- [ ] **Verificación:** V_R1 = V_R2 = V_R3 = 9 V
+- [ ] **Verificación:** V<sub>R1</sub> = V<sub>R2</sub> = V<sub>R3</sub> = 9 V
 
 ### 5.5. Cálculos teóricos    
 - 1/R_T = 1/R1 + 1/R2 + 1/R3 = 1/220 + 1/330 + 1/470 = <input type="text" class="calculation" data-circuit="paralelo" data-calc="r_parallel"> Ω
