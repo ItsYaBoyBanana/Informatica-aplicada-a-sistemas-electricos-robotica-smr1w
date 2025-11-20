@@ -95,20 +95,20 @@ _Duración estimada: 45 minutos_
 |-------------------|---------------|--------------|------------|
 | V<sub>T</sub>     | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total"> V | <input type="text" class="difference" readonly> V |
 | V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r1"> V | <input type="text" class="difference" readonly> V |
-| V_R2 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
-| V_R3 | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
-| **Suma V_R1 + V_R2 + V_R3** | **9 V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
+| V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2"> V | <input type="text" class="difference" readonly> V |
+| V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3"> V | <input type="text" class="difference" readonly> V |
+| **Suma V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | **<span id="sum_voltages_serie">0</span> V** | **<span id="diff_voltages_serie">0</span> V** |
 
 ### 4.4. Mediciones de Corriente 
 - [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   A```  
 - [ ] Colocar amperímetro en serie con R2: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r2"> ```   A```   
 - [ ] Colocar amperímetro en serie con R3: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r3"> ```   A```  
-- [ ] **Verificación:** I_R1 = I_R2 = I_R3 = <span id="current_verification_serie"></span> ```   A```
+- [ ] **Verificación:** I<sub>R1</sub> = I<sub>R2</sub> = I<sub>R3</sub> = <span id="current_verification_serie"></span> ```   A```
 
 ### 4.5. Cálculos teóricos    
 
-- Resistencia Total (R_T) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```  
-- Corriente teórica (I) = V / R_T = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
+- Resistencia Total (R<sub>T</sub>) = R1 + R2 + R3 = <input type="text" class="calculation" data-circuit="serie" data-calc="r_total"> ```   Ω```  
+- Corriente teórica (I) = V / R<sub>T</sub> = 9 V / <span id="r_total_serie"></span> Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="i_total"> ```   A```  
 - Voltaje R1 Teórico = I × R1 = <span id="i_total_serie"></span> A × 220 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r1_theo"> ```   V```  
 - Voltaje R2 Teórico = <span id="i_total_serie2"></span> A × 330 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r2_theo"> ```   V```  
 - Voltaje R3 Teórico = <span id="i_total_serie3"></span> A × 470 Ω = <input type="text" class="calculation" data-circuit="serie" data-calc="v_r3_theo"> ```   V```  
