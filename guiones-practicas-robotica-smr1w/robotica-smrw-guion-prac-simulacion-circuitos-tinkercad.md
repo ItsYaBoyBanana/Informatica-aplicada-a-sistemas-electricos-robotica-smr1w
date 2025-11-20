@@ -316,7 +316,7 @@ _Duración estimada: 25 minutos_
 ### 8.3. INCIDENCIAS Y OBSERVACIONES  
 Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos:  
 
-<pre> Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...   </pre>
+<pre>   ...   </pre>
 
 <!--<textarea id="observations" placeholder="" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0;"><pre>Describe aquí las dificultades encontradas, diferencias entre valores teóricos y medidos, y comportamientos observados en los circuitos...</pre></textarea>-->
 
@@ -325,12 +325,12 @@ Describe aquí las dificultades encontradas, diferencias entre valores teóricos
 ## 9. RECURSOS DE APOYO
 
 ### 9.1. Documentación técnica
-- [Guía oficial Tinkercad Circuits](https://www.tinkercad.com/learn/circuits)
+- [Guía oficial Tinkercad circuits](https://www.tinkercad.com/learn/circuits)
 - [Tutorial mediciones con polímetro virtual](https://www.tinkercad.com/things/0xqL1dF2d7F)
 - [Tabla código colores resistencias](https://www.allaboutcircuits.com/tools/resistor-color-code-calculator/)
 
 ### 9.2. Videotutoriales
-- [Introducción a Tinkercad Circuits](https://youtube.com/watch?v=yaS7m84YeD8)
+- [Introducción a Tinkercad circuits](https://youtube.com/watch?v=yaS7m84YeD8)
 - [Mediciones con polímetro virtual](https://youtube.com/watch?v=2-4L0gTjXsQ)
 - [Circuitos serie, paralelo y mixto](https://youtube.com/watch?v=7vfd)
 
