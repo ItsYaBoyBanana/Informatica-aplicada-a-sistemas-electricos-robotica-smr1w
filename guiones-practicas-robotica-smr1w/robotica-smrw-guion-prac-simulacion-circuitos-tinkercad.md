@@ -48,14 +48,14 @@
 
 ### 3.2. Componentes virtuales 
 
-| Componente | Cantidad | Uso │
-|------------|----------|------|
-│ Batería/Pila 9 V │ 3 unidades │ Fuente alimentación│
-│ Resistencias varias │ 9 unidades │ Cargas circuito │
-│ Polímetros │ 3 unidades │ Mediciones V, I, R│
-│ Protoboard │ 3 unidades │ Montaje circuitos │
-│ LEDs (opcional) │ 6 unidades │ Visualización │
-│ Cables jumpers │ Múltiples │ Conexiones │
+| **Componente**      | **Cantidad** | **Uso**                |
+| ------------------- | ------------ | ---------------------- |
+| Batería/Pila 9 V    | 3 unidades   | Fuente de alimentación |
+| Resistencias varias | 9 unidades   | Cargas del circuito    |
+| Polímetros          | 3 unidades   | Mediciones V, I, R     |
+| Protoboard          | 3 unidades   | Montaje de circuitos   |
+| LEDs (opcional)     | 6 unidades   | Visualización          |
+| Cables jumpers      | Múltiples    | Conexiones             |
 
 
 ### 3.3. Valores de resistencia recomendados
