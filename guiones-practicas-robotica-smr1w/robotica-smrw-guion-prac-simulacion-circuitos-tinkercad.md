@@ -312,27 +312,27 @@ _Duración estimada: 45 minutos_
 ## 7. Diseño de circuito con diodos led (opcional)
 _Duración estimada: 25 minutos_
 
-### 7.1. Esquema circuito con leds paralelo  
+### 7.1. Esquema circuito leds paralelo  
 
+```
+                    CIRCUITO LED EN PARALELO    
 
-+---------------- CIRCUITO LED PARALELO ----------------+
-|                                                       |
-|                                                +9V DC |
-|                                                       |
-|                                             +---[R1 220Ω]---|>|---+ 
-|                                             |   (LED Rojo, 2.0V)  |                                       
-|                                             |                     |
-|                                             +---[R2 330Ω]---|>|---+ 
-|                                             |  (LED Verde, 2.1V)  |
-|                                             |                     |       
-|                                             +---[R3 470Ω]---|>|---+
-|                                             |  (LED Azul, 3.0V)   |
-|                                             |                     |
-|                                             +---------------------+
-|                                                       |
-|                                              0V (GND) |
-|                                                       |
-+-------------------------------------------------------+  
+                         +9V DC
+                           │
+               ┌───────────┼───────────┬───────────┐
+               │           │           │           │
+               │           │           │           │
+        [R1 220Ω]      [R2 330Ω]    [R3 470Ω]      │
+           │              │             │          │
+          |>|            |>|           |>|         │
+     (LED Rojo 2.0V) (LED Verde 2.1V) (LED Azul 3.0V)
+           │              │             │
+           └──────────────┴─────────────┘
+                          │
+                       GND (0V)
+
+```
+
 
 ## Configuración
 - **3 ramas paralelas independientes**
