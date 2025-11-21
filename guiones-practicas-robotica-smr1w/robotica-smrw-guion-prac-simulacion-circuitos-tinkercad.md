@@ -209,7 +209,7 @@ _Duración estimada: 45 minutos_
                  |                 +-------[R3]------+
                  |                           |
                  |                      I3 → | 
-                 |       +  24 V  –           |
+                 |       +  12 V  –          |
                  +----------||–--------------+                 
                    
        
@@ -225,9 +225,9 @@ _Duración estimada: 45 minutos_
 
 
 ### 6.2. Valores de resistencias recomendados:    
-- R1 = 1 Ω
-- R2 = 220 Ω
-- R3 = 330 Ω
+- R1 = 100 Ω
+- R2 = 200 Ω
+- R3 = 300 Ω
 
 ### 6.3. Montaje    
 1. [ ] Colocar R1 en serie con (R₂ ∥ R₃)  
@@ -237,7 +237,7 @@ _Duración estimada: 45 minutos_
 ### 6.4. Mediciones    
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
-| V<sub>T</sub> | 24 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total">  | <input type="text" class="difference" readonly>  |
+| V<sub>T</sub> | 12 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total">  | <input type="text" class="difference" readonly>  |
 | V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r1_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r1">  | <input type="text" class="difference" readonly>  |
 | V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r2_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r2">  | <input type="text" class="difference" readonly> |
 | V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r3_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r3">  | <input type="text" class="difference" readonly>  |
@@ -250,12 +250,36 @@ _Duración estimada: 45 minutos_
 ### 6.5. Cálculos    
 - (R₂ ∥ R₃) = (R2 · R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
 - R<sub>T</sub> = R1 + (R₂ ∥ R₃) = <span id="r_total_mixto"></span> ``` ```Ω
-- I<sub>T</sub> = 9V / R<sub>T</sub> = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> ```   ```A
+- I<sub>T</sub> = 12 V / R<sub>T</sub> = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> ```   ```A
 - V<sub>R1</sub> = I<sub>T</sub> · R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> ```   ```V
 - V<sub>R₂ ∥ R₃</sub> = I<sub>T</sub> · (R₂ ∥ R₃) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
 - V<sub>R2</sub> = I<sub>T</sub> · R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> ```   ```V
 
-### 6.6. Captura circuito combinado (serie-paralelo)
+### 6.6. Análisis del Circuito serie-paralelo
+
+### 6.6.1. Distribución de corriente
+- **R1** actúa como resistencia limitadora de corriente total del circuito
+- **R2 y R3** dividen la corriente proporcionalmente a sus valores
+- La **corriente mayor** circula por la **resistencia menor** (R2 - 32.73 mA)
+- La **corriente menor** circula por la **resistencia mayor** (R3 - 21.82 mA)
+
+### 6.6.2. Distribución de tensión
+- **R1** experimenta la mayor caída de tensión (5.455V)
+- **R2 y R3** tienen igual tensión por estar en paralelo (6.545V)
+- La suma de tensiones verifica la Ley de Kirchhoff
+
+### 6.6.3. Características clave
+- **En serie**: Corriente igual, tensiones se suman
+- **En paralelo**: Tensión igual, corrientes se suman
+- La configuración permite controlar corriente total mientras se divide en ramas
+
+### 6.6.4. Aplicaciones prácticas
+- Divisores de corriente con limitación
+- Circuitos de polarización
+- Sistemas con diferentes cargas alimentadas desde misma fuente
+- Protección contra sobrecorriente en ramas paralelas
+
+### 6.7. Captura circuito combinado (serie-paralelo)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito mixto:</label>
