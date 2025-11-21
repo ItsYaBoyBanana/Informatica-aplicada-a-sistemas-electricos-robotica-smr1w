@@ -1,2 +1,2 @@
-# Informática Aplicada a Sistemas Eléctricos (Róbotica)
+# Informática aplicada a sistemas electrónicos (Róbotica)
 >SMR1W - `Ezequiel Llarena Borges`
