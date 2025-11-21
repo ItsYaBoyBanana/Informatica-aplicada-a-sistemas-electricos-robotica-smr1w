@@ -255,14 +255,14 @@ _Duración estimada: 45 minutos_
 - V<sub>R₂ ∥ R₃</sub> = I<sub>T</sub> · (R₂ ∥ R₃) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
 - V<sub>R2</sub> = I<sub>T</sub> · R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> ```   ```V
 
-## 6.6. Tabla Resumen de Valores
+### 6.6. Resumen de valores
 
 | Componente | Valor | Tensión (V) | Corriente (mA) | Potencia (mW) |
 |------------|-------|-------------|----------------|---------------|
-| **Fuente** | 12V | 12.000 | 54.55 | 654.6 |
-| **R1** | 100Ω | 5.455 | 54.55 | 297.5 |
-| **R2** | 200Ω | 6.545 | 32.73 | 214.2 |
-| **R3** | 300Ω | 6.545 | 21.82 | 142.8 |  
+| **Fuente** | 12 V | 12.000 | 54.55 | 654.6 |
+| **R1** | 100 Ω | 5.455 | 54.55 | 297.5 |
+| **R2** | 200 Ω | 6.545 | 32.73 | 214.2 |
+| **R3** | 300 Ω | 6.545 | 21.82 | 142.8 |  
 
 **Observaciones:**
 
@@ -271,7 +271,7 @@ _Duración estimada: 45 minutos_
 - ✅ **Conservación de Potencia:** La potencia total (654.6 mW) es igual a la suma de potencias individuales
 - ✅ **Leyes de Kirchhoff:** Se verifican tanto la ley de tensiones como la ley de corrientes
 - ✅ **Relación Inversa:** A mayor resistencia, menor corriente en ramas paralelas
-- ✅ **Caída de Tensión:** R1 tiene la mayor caída de tensión al estar en serie con el conjunto paralelo
+- ✅ **Caída de Tensión:** R1 tiene la mayor caída de tensión al estar en serie con el conjunto paralelo  
 
 
 ### 6.7. Análisis del Circuito serie-paralelo
@@ -298,6 +298,7 @@ _Duración estimada: 45 minutos_
 - Sistemas con diferentes cargas alimentadas desde misma fuente
 - Protección contra sobrecorriente en ramas paralelas
 
+
 ### 6.8. Captura circuito combinado (serie-paralelo)
 
    <div class="screenshot-upload">
@@ -312,14 +313,23 @@ _Duración estimada: 45 minutos_
 ## 7. Diseño de circuito con diodos led (opcional)
 _Duración estimada: 25 minutos_
 
-### 7.1. Diseño con leds (diodo emisor de luz)
-┌─────────────────────────────────────────────────────────────┐
-│ CIRCUITO LED - ESQUEMA │
-├─────────────────────────────────────────────────────────────┤
-│ + 9V ---[R1 220Ω]---[LED Rojo]--- 0 V │
-│ [R2 330 Ω]---[LED Verde]--- │
-│ [R3 470 Ω]---[LED Azul]---- │
-└─────────────────────────────────────────────────────────────┘
+### 7.1. Esquema circuito con leds paralelo 
+
++---------------- CIRCUITO LED PARALELO ----------------+
+| |
+| +9V DC |
+| | |
+| +---[R1 220Ω]---|>|---+ (LED Rojo, 2.0V) |
+| | | | |
+| +---[R2 330Ω]---|>|---+ (LED Verde, 2.1V) |
+| | | | |
+| +---[R3 470Ω]---|>|---+ (LED Azul, 3.0V) |
+| | | |
+| +-----------------+------------------------------+
+| |
+| 0V (GND) |
+| |
++-------------------------------------------------------+  
 
 ### 7.2. Consideraciones leds  
 - [ ] Los leds requieren resistencia limitadora de corriente
@@ -332,7 +342,17 @@ _Duración estimada: 25 minutos_
 - [ ] Corriente en led **azul:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> ```   ```A
 - [ ] Voltaje en cada led: <input type="text" class="measurement" data-circuit="leds" data-measure="v_led"> ```   ```V
 
-### 7.4. Captura circuito con leds  
+### 7.4. Resumen de valores
+
+| Componente | Valor | Vf LED | V Resistor | Corriente (mA) | Potencia (mW) |
+|------------|-------|--------|------------|----------------|---------------|
+| **Fuente** | 9 V | - | - | 47.73 | 429.6 |
+| **R1 + LED Rojo** | 220 Ω | 2.0 V | 7.0 V | 31.82 | 222.7 |
+| **R2 + LED Verde** | 330 Ω | 2.1 V | 6.9 V | 20.91 | 144.3 |
+| **R3 + LED Azul** | 470 Ω | 3.0 V | 6.0 V | 12.77 | 76.6 |
+
+
+### 7.5. Captura circuito con leds  
 
 <div class="screenshot-section">
     <div class="screenshot-upload">
