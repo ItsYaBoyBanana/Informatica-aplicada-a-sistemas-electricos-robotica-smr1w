@@ -213,14 +213,14 @@ _Duración estimada: 45 minutos_
                  +----------||–--------------+                 
                    
        
-| Elemento        | Símbolo con subíndice | Descripción                     |
-| --------------- | --------------------- | ------------------------------- |
-| Corriente total |  I<sub>T</sub>        | Corriente que entra al circuito |
-| Corriente R2    |  I<sub>R2</sub>       | Corriente que pasa por R2       |
-| Corriente R3    |  I<sub>R3</sub>       | Corriente que pasa por R3       |
-| Voltaje R1      |  V<sub>R1</sub>       | Caída de tensión en R1          |
-| Voltaje R2      |  V<sub>R2</sub>       | Caída de tensión en R2          |
-| Voltaje R3      |  V<sub>R3</sub>       | Caída de tensión en R3          |
+| Símbolo               | Significado                     |
+| --------------------- | ------------------------------- |
+|  I<sub>T</sub>        | Corriente que entra al circuito |
+|  I<sub>R2</sub>       | Corriente que pasa por R2       |
+|  I<sub>R3</sub>       | Corriente que pasa por R3       |
+|  V<sub>R1</sub>       | Caída de tensión en R1          |
+|  V<sub>R2</sub>       | Caída de tensión en R2          |
+|  V<sub>R3</sub>       | Caída de tensión en R3          |
 
 
 
