@@ -280,7 +280,7 @@ _Duración estimada: 25 minutos_
 
 ### 7.2. Consideraciones leds  
 - [ ] Los leds requieren resistencia limitadora de corriente
-- [ ] Verificar polaridad (ánodo +, cátodo -)
+- [ ] Verificar polaridad (```ánodo + ```, ```cátodo - ```)
 - [ ] Observar intensidad luminosa según resistencia
 
 ### 7.3. Mediciones  
