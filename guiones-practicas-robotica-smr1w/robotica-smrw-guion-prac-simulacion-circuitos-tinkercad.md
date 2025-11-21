@@ -343,12 +343,12 @@ _Duración estimada: 25 minutos_
 
 ### 7.4. Resumen de valores
 
-| Componente | Valor | Vf LED | V Resistor | Corriente (mA) | Potencia (mW) |
-|------------|-------|--------|------------|----------------|---------------|
-| **Fuente** | 9 V | - | - | 47.73 | 429.6 |
-| **R1 + LED Rojo** | 220 Ω | 2.0 V | 7.0 V | 31.82 | 222.7 |
-| **R2 + LED Verde** | 330 Ω | 2.1 V | 6.9 V | 20.91 | 144.3 |
-| **R3 + LED Azul** | 470 Ω | 3.0 V | 6.0 V | 12.77 | 76.6 |
+| Componente | Valor | Vf LED | V Resistor | Corriente (mA) |
+|------------|-------|--------|------------|----------------|
+| **Fuente** | 9 V | - | - | 47.73 |
+| **R1 + LED Rojo** | 220 Ω | 2.0 V | 7.0 V | 31.82 |
+| **R2 + LED Verde** | 330 Ω | 2.1 V | 6.9 V | 20.91 |
+| **R3 + LED Azul** | 470 Ω | 3.0 V | 6.0 V | 12.77 |
 
 
 ### 7.5. Captura circuito con leds  
