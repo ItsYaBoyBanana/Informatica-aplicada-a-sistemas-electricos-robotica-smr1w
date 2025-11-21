@@ -230,7 +230,7 @@ _Duración estimada: 45 minutos_
 - R3 = 330 Ω
 
 ### 6.3. Montaje    
-1. [ ] Colocar R1 en serie con R2||R3
+1. [ ] Colocar R1 en serie con R₂ ∥ R₃  
 2. [ ] Conectar R2 y R3 en paralelo
 3. [ ] Verificar todas las conexiones
 
@@ -248,8 +248,8 @@ _Duración estimada: 45 minutos_
 
 
 ### 6.5. Cálculos    
-- (R2||R3) = (R2 x R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
-- R<sub>T</sub> = R1 + (R2||R3) = <span id="r_total_mixto"></span> ``` ```Ω
+- (R₂ ∥ R₃) = \(R2 \cdot R3\) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
+- R<sub>T</sub> = R1 + (R₂ ∥ R₃) = <span id="r_total_mixto"></span> ``` ```Ω
 - I<sub>T</sub> = 9V / R<sub>T</sub> = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> ```   ```A
 - V<sub>R1</sub> = I<sub>T</sub> × R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> ```   ```V
 - V<sub>R2||R3</sub> = I<sub>T</sub> × (R2||R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
