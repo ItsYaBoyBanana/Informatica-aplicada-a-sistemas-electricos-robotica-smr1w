@@ -334,7 +334,7 @@ _Duración estimada: 25 minutos_
 ```
 
 
-## Configuración
+### Configuración
 - 3 ramas paralelas independientes
 - Cada LED con su resistencia limitadora propia
 - Alimentación común de 9V DC
