@@ -312,7 +312,8 @@ _Duración estimada: 45 minutos_
 ## 7. Diseño de circuito con diodos led (opcional)
 _Duración estimada: 25 minutos_
 
-### 7.1. Esquema circuito con leds paralelo 
+### 7.1. Esquema circuito con leds paralelo  
+
 
 +---------------- CIRCUITO LED PARALELO ----------------+
 |                                                       |
