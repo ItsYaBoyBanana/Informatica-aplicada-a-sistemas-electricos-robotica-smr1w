@@ -4,9 +4,8 @@
 **Ciclo Formativo:** Sistemas Microinformáticos y Redes (SMR1W)  
 **Profesor:** Ezequiel Llarena Borges  
 **Duración estimada:** 3 horas  
-**Resultados de aprendizaje a trabajar:**  
+**Resultado de aprendizaje a trabajar:**  
 - *RA1 - Describe los fundamentos básicos de las señales eléctricas.*
-- *RA2 - Analiza, diseña, simula y mide circuitos electrónicos en continua.*
 
 ---
 
