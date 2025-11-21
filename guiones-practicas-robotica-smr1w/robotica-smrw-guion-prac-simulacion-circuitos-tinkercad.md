@@ -359,18 +359,18 @@ Describe aquí las dificultades encontradas, diferencias entre valores teóricos
 
 ### 9.3. Prefijos unidades de medida  
 
-| Potencia | Prefijo | Símbolo |
-|  (10^x)  |         |         |
-|----------|---------|---------|
-| 12       | Tera    | T       |
-| 9        | Giga    | G       |
-| 6        | Mega    | M       |
-| 3        | Kilo    | k       |
-| **0      | Unidad  | —**     |
-| -3       | milli   | m       |
-| -6       | micro   | µ       |
-| -9       | nano    | n       |
-| -12      | pico    | p       |
+| Potencia (10^x) | Prefijo        | Símbolo |
+|-----------------|----------------|---------|
+| 12              | Tera           | T       |
+| 9               | Giga           | G       |
+| 6               | Mega           | M       |
+| 3               | Kilo           | k       |
+| **0**           | **Unidad**     | **—**   |
+| -3              | milli          | m       |
+| -6              | micro          | µ       |
+| -9              | nano           | n       |
+| -12             | pico           | p       |
+
 
 
 ##  
