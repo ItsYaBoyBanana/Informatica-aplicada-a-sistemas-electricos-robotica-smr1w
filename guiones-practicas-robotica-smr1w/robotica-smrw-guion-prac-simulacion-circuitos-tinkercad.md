@@ -209,7 +209,7 @@ _Duración estimada: 45 minutos_
                  |                 +-------[R3]------+
                  |                           |
                  |                      I3 → | 
-                 |       +  9 V  –           |
+                 |       +  24 V  –           |
                  +----------||–--------------+                 
                    
        
@@ -225,8 +225,8 @@ _Duración estimada: 45 minutos_
 
 
 ### 6.2. Valores de resistencias recomendados:    
-- R1 = 1 kΩ
-- R2 = 2.2 kΩ
+- R1 = 1 Ω
+- R2 = 220 Ω
 - R3 = 330 Ω
 
 ### 6.3. Montaje    
@@ -237,7 +237,7 @@ _Duración estimada: 45 minutos_
 ### 6.4. Mediciones    
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
-| V<sub>T</sub> | 9 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total">  | <input type="text" class="difference" readonly>  |
+| V<sub>T</sub> | 24 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total">  | <input type="text" class="difference" readonly>  |
 | V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r1_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r1">  | <input type="text" class="difference" readonly>  |
 | V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r2_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r2">  | <input type="text" class="difference" readonly> |
 | V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r3_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r3">  | <input type="text" class="difference" readonly>  |
