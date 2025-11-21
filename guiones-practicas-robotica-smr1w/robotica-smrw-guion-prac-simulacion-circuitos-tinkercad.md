@@ -265,15 +265,15 @@ _Duración estimada: 45 minutos_
 
 **Observaciones:**
 
-- ✅ **Distribución de Corriente:** La corriente total (54.55 mA) se divide proporcionalmente entre R2 (32.73 mA) y R3 (21.82 mA)
-- ✅ **Tensión en Paralelo:** La tensión es igual en componentes en paralelo (R2 y R3 = 6.545V)
-- ✅ **Conservación de Potencia:** La potencia total (654.6 mW) es igual a la suma de potencias individuales
+- ✅ **Distribución de corriente:** La corriente total (54.55 mA) se divide proporcionalmente entre R2 (32.73 mA) y R3 (21.82 mA)
+- ✅ **Tensión en paralelo:** La tensión es igual en componentes en paralelo (R2 y R3 = 6.545V)
+- ✅ **Conservación de potencia:** La potencia total (654.6 mW) es igual a la suma de potencias individuales
 - ✅ **Leyes de Kirchhoff:** Se verifican tanto la ley de tensiones como la ley de corrientes
-- ✅ **Relación Inversa:** A mayor resistencia, menor corriente en ramas paralelas
-- ✅ **Caída de Tensión:** R1 tiene la mayor caída de tensión al estar en serie con el conjunto paralelo  
+- ✅ **Relación inversa:** A mayor resistencia, menor corriente en ramas paralelas
+- ✅ **Caída de tensión:** R1 tiene la mayor caída de tensión al estar en serie con el conjunto paralelo  
 
 
-### 6.7. Análisis del Circuito serie-paralelo
+### 6.7. Análisis del circuito serie-paralelo
 
 ### 6.7.1. Distribución de corriente
 - **R1** actúa como resistencia limitadora de corriente total del circuito
