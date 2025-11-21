@@ -423,12 +423,12 @@ Describe aquí las dificultades encontradas, diferencias entre valores teóricos
 - [Tutorial mediciones con polímetro virtual](https://www.tinkercad.com/things/0xqL1dF2d7F)
 - [Tabla código colores resistencias](https://www.allaboutcircuits.com/tools/resistor-color-code-calculator/)
 
-### 9.2. Videotutoriales
+<!-- ### 9.2. Videotutoriales
 - [Introducción a Tinkercad circuits](https://youtube.com/watch?v=yaS7m84YeD8)
 - [Mediciones con polímetro virtual](https://youtube.com/watch?v=2-4L0gTjXsQ)
-- [Circuitos serie, paralelo y mixto](https://youtube.com/watch?v=7vfd)
+- [Circuitos serie, paralelo y mixto](https://youtube.com/watch?v=7vfd)  -->  
 
-### 9.3. Prefijos unidades de medida  
+### 9.2. Prefijos unidades de medida  
 
 | Potencia (10^x) | Prefijo        | Símbolo |
 |-----------------|----------------|---------|
