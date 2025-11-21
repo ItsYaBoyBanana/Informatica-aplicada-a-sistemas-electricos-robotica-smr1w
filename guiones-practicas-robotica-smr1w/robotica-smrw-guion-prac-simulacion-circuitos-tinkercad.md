@@ -237,11 +237,11 @@ _Duración estimada: 45 minutos_
 ### 6.4. Mediciones    
 | Parámetro | Valor Teórico | Valor Medido | Diferencia |
 |-----------|---------------|--------------|------------|
-| V<sub>T</sub> | 12 V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total">  | <input type="text" class="difference" readonly>  |
+| V<sub>T</sub> | V<sub>R1</sub> + V<sub>R₂ ∥ R₃</sub> V | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_total">  | <input type="text" class="difference" readonly>  |
 | V<sub>R1</sub>| <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r1_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r1">  | <input type="text" class="difference" readonly>  |
 | V<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r2_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r2">  | <input type="text" class="difference" readonly> |
 | V<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="v_r3_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="v_r3">  | <input type="text" class="difference" readonly>  |
-| I<sub>T</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_total_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_total">  | <input type="text" class="difference" readonly>  |
+| I<sub>T</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_total_theo">  I<sub>R2</sub> + I<sub>R3</sub> | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_total">  | <input type="text" class="difference" readonly>  |
 | I<sub>R1</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r1_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r1">  | <input type="text" class="difference" readonly>  |
 | I<sub>R2</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r2_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r2">  | <input type="text" class="difference" readonly>  |
 | I<sub>R3</sub> | <input type="text" class="theoretical" data-circuit="mixto" data-measure="i_r3_theo">  | <input type="text" class="measurement" data-circuit="mixto" data-measure="i_r3">  | <input type="text" class="difference" readonly> |
