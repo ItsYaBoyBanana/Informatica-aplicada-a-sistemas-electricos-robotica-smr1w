@@ -255,31 +255,50 @@ _Duración estimada: 45 minutos_
 - V<sub>R₂ ∥ R₃</sub> = I<sub>T</sub> · (R₂ ∥ R₃) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
 - V<sub>R2</sub> = I<sub>T</sub> · R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> ```   ```V
 
-### 6.6. Análisis del Circuito serie-paralelo
+## 6.6. Tabla Resumen de Valores
 
-### 6.6.1. Distribución de corriente
+| Componente | Valor | Tensión (V) | Corriente (mA) | Potencia (mW) |
+|------------|-------|-------------|----------------|---------------|
+| **Fuente** | 12V | 12.000 | 54.55 | 654.6 |
+| **R1** | 100Ω | 5.455 | 54.55 | 297.5 |
+| **R2** | 200Ω | 6.545 | 32.73 | 214.2 |
+| **R3** | 300Ω | 6.545 | 21.82 | 142.8 |  
+
+**Observaciones:**
+
+- ✅ **Distribución de Corriente:** La corriente total (54.55 mA) se divide proporcionalmente entre R2 (32.73 mA) y R3 (21.82 mA)
+- ✅ **Tensión en Paralelo:** La tensión es igual en componentes en paralelo (R2 y R3 = 6.545V)
+- ✅ **Conservación de Potencia:** La potencia total (654.6 mW) es igual a la suma de potencias individuales
+- ✅ **Leyes de Kirchhoff:** Se verifican tanto la ley de tensiones como la ley de corrientes
+- ✅ **Relación Inversa:** A mayor resistencia, menor corriente en ramas paralelas
+- ✅ **Caída de Tensión:** R1 tiene la mayor caída de tensión al estar en serie con el conjunto paralelo
+
+
+### 6.7. Análisis del Circuito serie-paralelo
+
+### 6.7.1. Distribución de corriente
 - **R1** actúa como resistencia limitadora de corriente total del circuito
 - **R2 y R3** dividen la corriente proporcionalmente a sus valores
 - La **corriente mayor** circula por la **resistencia menor** (R2 - 32.73 mA)
 - La **corriente menor** circula por la **resistencia mayor** (R3 - 21.82 mA)
 
-### 6.6.2. Distribución de tensión
+### 6.7.2. Distribución de tensión
 - **R1** experimenta la mayor caída de tensión (5.455V)
 - **R2 y R3** tienen igual tensión por estar en paralelo (6.545V)
 - La suma de tensiones verifica la Ley de Kirchhoff
 
-### 6.6.3. Características clave
+### 6.7.3. Características clave
 - **En serie**: Corriente igual, tensiones se suman
 - **En paralelo**: Tensión igual, corrientes se suman
 - La configuración permite controlar corriente total mientras se divide en ramas
 
-### 6.6.4. Aplicaciones prácticas
+### 6.7.4. Aplicaciones prácticas
 - Divisores de corriente con limitación
 - Circuitos de polarización
 - Sistemas con diferentes cargas alimentadas desde misma fuente
 - Protección contra sobrecorriente en ramas paralelas
 
-### 6.7. Captura circuito combinado (serie-paralelo)
+### 6.8. Captura circuito combinado (serie-paralelo)
 
    <div class="screenshot-upload">
         <label>Insertar captura del circuito mixto:</label>
