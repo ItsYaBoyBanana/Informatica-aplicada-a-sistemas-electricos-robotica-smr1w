@@ -335,9 +335,9 @@ _Duración estimada: 25 minutos_
 
 
 ## Configuración
-- **3 ramas paralelas independientes**
-- **Cada LED con su resistencia limitadora propia**
-- **Alimentación común de 9V DC**
+- 3 ramas paralelas independientes
+- Cada LED con su resistencia limitadora propia
+- Alimentación común de 9V DC
 
 ### 7.2. Consideraciones leds  
 - [ ] Los leds requieren resistencia limitadora de corriente
