@@ -59,9 +59,9 @@
 
 
 ### 3.3. Valores de resistencia recomendados
-- **R1:** 220 Ω `rojo-rojo-marrón`
-- **R2:** 330 Ω `naranja-naranja-marrón` 
-- **R3:** 470 Ω `amarillo-violeta-marrón`
+- **R1 =** 220 Ω `rojo-rojo-marrón`
+- **R2 =** 330 Ω `naranja-naranja-marrón` 
+- **R3 =** 470 Ω `amarillo-violeta-marrón`
 <!-- **R4:** 1 kΩ `marrón-negro-rojo`
 - **R5:** 2.2 kΩ `rojo-rojo-rojo`  -->
 
