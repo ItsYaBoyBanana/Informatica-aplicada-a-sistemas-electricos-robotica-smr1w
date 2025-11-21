@@ -278,16 +278,16 @@ _Duración estimada: 25 minutos_
 │ [R3 470 Ω]---[LED Azul]---- │
 └─────────────────────────────────────────────────────────────┘
 
-### 7.2. Consideraciones Leds  
+### 7.2. Consideraciones leds  
 - [ ] Los leds requieren resistencia limitadora de corriente
 - [ ] Verificar polaridad (ánodo +, cátodo -)
 - [ ] Observar intensidad luminosa según resistencia
 
 ### 7.3. Mediciones  
-- [ ] Corriente en led **rojo:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_rojo"> A
-- [ ] Corriente en led **verde:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_verde"> A
-- [ ] Corriente en led **azul:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> A
-- [ ] Voltaje en cada led: <input type="text" class="measurement" data-circuit="leds" data-measure="v_led"> V
+- [ ] Corriente en led **rojo:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_rojo"> ```   ```A
+- [ ] Corriente en led **verde:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_verde"> ```   ```A
+- [ ] Corriente en led **azul:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> ```   ```A
+- [ ] Voltaje en cada led: <input type="text" class="measurement" data-circuit="leds" data-measure="v_led"> ```   ```V
 
 ### 7.4. Captura circuito con leds  
 
