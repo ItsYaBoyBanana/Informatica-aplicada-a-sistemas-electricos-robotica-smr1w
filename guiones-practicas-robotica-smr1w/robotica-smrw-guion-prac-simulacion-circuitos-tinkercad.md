@@ -357,6 +357,21 @@ Describe aquí las dificultades encontradas, diferencias entre valores teóricos
 - [Mediciones con polímetro virtual](https://youtube.com/watch?v=2-4L0gTjXsQ)
 - [Circuitos serie, paralelo y mixto](https://youtube.com/watch?v=7vfd)
 
+### 9.3. Prefijos unidades de medida  
+
+| Potencia | Prefijo | Símbolo |
+|  (10^x)  |         |         |
+|----------|---------|---------|
+| 12       | Tera    | T       |
+| 9        | Giga    | G       |
+| 6        | Mega    | M       |
+| 3        | Kilo    | k       |
+| **0      | Unidad  | —**     |
+| -3       | milli   | m       |
+| -6       | micro   | µ       |
+| -9       | nano    | n       |
+| -12      | pico    | p       |
+
 
 ##  
 _&copy; 2025 - Fundamentos de Programación - Ezequiel Llarena Borges_
