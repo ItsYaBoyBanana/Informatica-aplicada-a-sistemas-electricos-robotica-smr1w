@@ -315,20 +315,28 @@ _Duración estimada: 25 minutos_
 ### 7.1. Esquema circuito con leds paralelo 
 
 +---------------- CIRCUITO LED PARALELO ----------------+
-| |
-| +9V DC |
-| | |
-| +---[R1 220Ω]---|>|---+ (LED Rojo, 2.0V) |
-| | | | |
-| +---[R2 330Ω]---|>|---+ (LED Verde, 2.1V) |
-| | | | |
-| +---[R3 470Ω]---|>|---+ (LED Azul, 3.0V) |
-| | | |
-| +-----------------+------------------------------+
-| |
-| 0V (GND) |
-| |
+|                                                       |
+|                                                +9V DC |
+|                                                       |
+|                                             +---[R1 220Ω]---|>|---+ 
+|                                             |   (LED Rojo, 2.0V)  |                                       
+|                                             |                     |
+|                                             +---[R2 330Ω]---|>|---+ 
+|                                             |  (LED Verde, 2.1V)  |
+|                                             |                     |       
+|                                             +---[R3 470Ω]---|>|---+
+|                                             |  (LED Azul, 3.0V)   |
+|                                             |                     |
+|                                             +---------------------+
+|                                                       |
+|                                              0V (GND) |
+|                                                       |
 +-------------------------------------------------------+  
+
+## Configuración
+- **3 ramas paralelas independientes**
+- **Cada LED con su resistencia limitadora propia**
+- **Alimentación común de 9V DC**
 
 ### 7.2. Consideraciones leds  
 - [ ] Los leds requieren resistencia limitadora de corriente
