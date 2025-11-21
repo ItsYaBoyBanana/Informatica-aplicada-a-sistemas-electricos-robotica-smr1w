@@ -251,8 +251,8 @@ _Duración estimada: 45 minutos_
 - (R₂ ∥ R₃) = (R2 · R3) / (R2 + R3) = <input type="text" class="calculation" data-circuit="mixto" data-calc="r_parallel"> ```   ```Ω
 - R<sub>T</sub> = R1 + (R₂ ∥ R₃) = <span id="r_total_mixto"></span> ``` ```Ω
 - I<sub>T</sub> = 9V / R<sub>T</sub> = <input type="text" class="calculation" data-circuit="mixto" data-calc="i_total_theo"> ```   ```A
-- V<sub>R1</sub> = I<sub>T</sub> × R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> ```   ```V
-- V<sub>R₂ ∥ R₃</sub> = I<sub>T</sub> × (R₂ ∥ R₃) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
+- V<sub>R1</sub> = I<sub>T</sub> · R1 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r1_theo"> ```   ```V
+- V<sub>R₂ ∥ R₃</sub> = I<sub>T</sub> · (R₂ ∥ R₃) = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_parallel_theo"> ```   ```V
 - V<sub>R2</sub> = I<sub>T</sub> · R2 = <input type="text" class="calculation" data-circuit="mixto" data-calc="v_r2_theo"> ```   ```V
 
 ### 6.6. Captura circuito combinado (serie-paralelo)
