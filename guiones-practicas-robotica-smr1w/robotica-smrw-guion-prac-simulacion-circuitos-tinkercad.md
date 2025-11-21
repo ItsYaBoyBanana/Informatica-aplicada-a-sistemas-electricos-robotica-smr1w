@@ -266,10 +266,10 @@ _Duración estimada: 45 minutos_
 
 ---
 
-## 7. ACTIVIDAD OPCIONAL: CIRCUITO CON DIODOS LED
+## 7. Diseño de circuito con diodos led (opcional)
 _Duración estimada: 25 minutos_
 
-### 7.1. Diseño con led (diodo emisor de luz)
+### 7.1. Diseño con leds (diodo emisor de luz)
 ┌─────────────────────────────────────────────────────────────┐
 │ CIRCUITO LED - ESQUEMA │
 ├─────────────────────────────────────────────────────────────┤
@@ -279,15 +279,15 @@ _Duración estimada: 25 minutos_
 └─────────────────────────────────────────────────────────────┘
 
 ### 7.2. Consideraciones Leds  
-- [ ] Los LEDs requieren resistencia limitadora de corriente
+- [ ] Los leds requieren resistencia limitadora de corriente
 - [ ] Verificar polaridad (ánodo +, cátodo -)
 - [ ] Observar intensidad luminosa según resistencia
 
 ### 7.3. Mediciones  
-- [ ] Corriente en LED rojo: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_rojo"> A
-- [ ] Corriente en LED verde: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_verde"> A
-- [ ] Corriente en LED azul: <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> A
-- [ ] Voltaje en cada LED: <input type="text" class="measurement" data-circuit="leds" data-measure="v_led"> V
+- [ ] Corriente en led **rojo:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_rojo"> A
+- [ ] Corriente en led **verde:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_verde"> A
+- [ ] Corriente en led **azul:** <input type="text" class="measurement" data-circuit="leds" data-measure="i_led_azul"> A
+- [ ] Voltaje en cada led: <input type="text" class="measurement" data-circuit="leds" data-measure="v_led"> V
 
 ### 7.4. Captura circuito con leds  
 
