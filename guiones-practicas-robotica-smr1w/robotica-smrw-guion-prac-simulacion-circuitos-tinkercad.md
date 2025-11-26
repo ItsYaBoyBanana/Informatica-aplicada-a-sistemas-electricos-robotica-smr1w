@@ -43,8 +43,8 @@
 
 ### 3.1. Software
 - [x] [Plataforma online de simulación Tinkercad](https://www.tinkercad.com/)  
-- [ ] Navegador web actualizado (Chrome/Firefox recomendado)
-- [ ] Cuenta en Autodesk (gratuita)
+- [x] Navegador web actualizado (Chrome/Firefox recomendado)
+- [x] Cuenta en Autodesk (gratuita)
 
 ### 3.2. Componentes virtuales 
 
@@ -81,11 +81,11 @@ _Duración estimada: 45 minutos_
               + 9 V -
 
 ### 4.2. Montaje en Protoboard
-1. [ ] Colocar batería 9 V en protoboard
-2. [ ] Conectar R1 (220 Ω) en serie con R2 (330 Ω)
-3. [ ] Conectar R2 en serie con R3 (470 Ω)
-4. [ ] Completar circuito cerrado
-5. [ ] Verificar conexiones correctas
+1. [x] Colocar batería 9 V en protoboard
+2. [x] Conectar R1 (220 Ω) en serie con R2 (330 Ω)
+3. [x] Conectar R2 en serie con R3 (470 Ω)
+4. [x] Completar circuito cerrado
+5. [x] Verificar conexiones correctas
 
 ### 4.3. Mediciones de Voltaje 
 
