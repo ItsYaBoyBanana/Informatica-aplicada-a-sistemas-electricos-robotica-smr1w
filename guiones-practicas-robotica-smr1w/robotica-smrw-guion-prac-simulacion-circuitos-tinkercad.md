@@ -42,7 +42,7 @@
 ## 3. Herramientas y material necesario
 
 ### 3.1. Software
-- [ ] [Plataforma online de simulación Tinkercad](https://www.tinkercad.com/)  
+- [x] [Plataforma online de simulación Tinkercad](https://www.tinkercad.com/)  
 - [ ] Navegador web actualizado (Chrome/Firefox recomendado)
 - [ ] Cuenta en Autodesk (gratuita)
 
