@@ -93,11 +93,11 @@ Caída de tensión en cada resistor: V<sub>R<sub>n</sub></sub> = I × R<sub>n</s
 
 | Punto de Medición | Valor Teórico (v) | Valor Medido (V) | Diferencia |
 |-------------------|---------------|--------------|------------|
-| V<sub>T</sub>     | 9 V | <input type="text" class="measurement" data-circuit="serie" data-measure="v_total">| <input type="text" class="difference" readonly> |
+| V<sub>T</sub>     | 9 V | 8.99 V |<input type="text" class="measurement" data-circuit="serie" data-measure="v_total">| <input type="text" class="difference" readonly> |
 | V<sub>R1</sub> | | 1.94 V |<input type="text" class="theoretical" data-circuit="serie" data-measure="v_r1">  | <input type="text" class=" " data-circuit="serie" data-measure="v_r1"> | <input type="text" class="difference" readonly>  |
 | V<sub>R2</sub> | | 2.91 V |<input type="text" class="theoretical" data-circuit="serie" data-measure="v_r2">  | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r2">  | <input type="text" class="difference" readonly> |
 | V<sub>R3</sub> | | 4.14 V |<input type="text" class="theoretical" data-circuit="serie" data-measure="v_r3"> | <input type="text" class="measurement" data-circuit="serie" data-measure="v_r3">  | <input type="text" class="difference" readonly> |
-| V<sub>T</sub> = **V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | <span id="sum_voltages_serie"></span> | <span id="diff_voltages_serie"></span> |
+| V<sub>T</sub> = **V<sub>R1</sub> + V<sub>R2</sub> + V<sub>R3</sub>** | **9 V** | **8.9 V** |<span id="sum_voltages_serie"></span> | <span id="diff_voltages_serie"></span> |
 
 ### 4.4. Mediciones de Corriente 
 - [ ] Colocar amperímetro en serie con R1: <input type="text" class="measurement" data-circuit="serie" data-measure="i_r1"> ```   ```A  
